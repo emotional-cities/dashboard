@@ -1,0 +1,11 @@
+dash==2.15.0
+pandas
+matplotlib
+plotly
+statsmodels
+scikit-learn
+dash-bootstrap-components
+folium
+pyarrow
+gunicorn
+Flask

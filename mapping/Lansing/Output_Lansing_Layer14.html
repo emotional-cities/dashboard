@@ -1,0 +1,3265 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_57b92c79bda2493705fd3758ed266d6a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_57b92c79bda2493705fd3758ed266d6a" ></div>
+        
+</body>
+<script>    
+    
+            var map_57b92c79bda2493705fd3758ed266d6a = L.map(
+                "map_57b92c79bda2493705fd3758ed266d6a",
+                {
+                    center: [42.732536, -84.555534],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_57b92c79bda2493705fd3758ed266d6a);
+
+            
+
+        
+    
+            var feature_group_3d7db723c0bba05b05efdc4e6f0d4590 = L.featureGroup(
+                {}
+            ).addTo(map_57b92c79bda2493705fd3758ed266d6a);
+        
+    
+            var tile_layer_c78125c2345a0b14eb56321ad2aa99c4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(feature_group_3d7db723c0bba05b05efdc4e6f0d4590);
+        
+    
+            var feature_group_f2a1a66d73d9783b7f747f568b015df9 = L.featureGroup(
+                {}
+            ).addTo(map_57b92c79bda2493705fd3758ed266d6a);
+        
+    
+            var tile_layer_423f7371c83a43b8fb945729e546257b = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Esri", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(feature_group_f2a1a66d73d9783b7f747f568b015df9);
+        
+    
+            var feature_group_9e027952c1471e17634dcabcc3b314ef = L.featureGroup(
+                {}
+            ).addTo(map_57b92c79bda2493705fd3758ed266d6a);
+        
+    
+        function geo_json_e60468cf570877c48c42a43c7da3f71a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_e60468cf570877c48c42a43c7da3f71a_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_e60468cf570877c48c42a43c7da3f71a = L.geoJson(null, {
+                onEachFeature: geo_json_e60468cf570877c48c42a43c7da3f71a_onEachFeature,
+            
+                style: geo_json_e60468cf570877c48c42a43c7da3f71a_styler,
+        });
+
+        function geo_json_e60468cf570877c48c42a43c7da3f71a_add (data) {
+            geo_json_e60468cf570877c48c42a43c7da3f71a
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_e60468cf570877c48c42a43c7da3f71a_add({"features": [{"geometry": {"coordinates": [-84.54516818, 42.7056192], "type": "Point"}, "id": 1, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 8.1,  9.5)", "DIABETES_C": 8.8, "Geolocatio": "POINT (-84.54516818 42.7056192)", "Latitude": 42.7056192, "Longitude": -84.54516818, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3382, "TractFIPS": 26065002300.0, "id": 1}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_e60468cf570877c48c42a43c7da3f71a.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_ad72dbe569c21cefee2a6524a7ae2902_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_ad72dbe569c21cefee2a6524a7ae2902_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_ad72dbe569c21cefee2a6524a7ae2902 = L.geoJson(null, {
+                onEachFeature: geo_json_ad72dbe569c21cefee2a6524a7ae2902_onEachFeature,
+            
+                style: geo_json_ad72dbe569c21cefee2a6524a7ae2902_styler,
+        });
+
+        function geo_json_ad72dbe569c21cefee2a6524a7ae2902_add (data) {
+            geo_json_ad72dbe569c21cefee2a6524a7ae2902
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_ad72dbe569c21cefee2a6524a7ae2902_add({"features": [{"geometry": {"coordinates": [-84.56912798, 42.7500582], "type": "Point"}, "id": 2, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(14.4, 15.5)", "DIABETES_C": 14.9, "Geolocatio": "POINT (-84.56912798 42.7500582)", "Latitude": 42.7500582, "Longitude": -84.56912798, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3985, "TractFIPS": 26065006800.0, "id": 2}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_ad72dbe569c21cefee2a6524a7ae2902.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_ef2474865e06f466726fc492ed239138_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_ef2474865e06f466726fc492ed239138_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_ef2474865e06f466726fc492ed239138 = L.geoJson(null, {
+                onEachFeature: geo_json_ef2474865e06f466726fc492ed239138_onEachFeature,
+            
+                style: geo_json_ef2474865e06f466726fc492ed239138_styler,
+        });
+
+        function geo_json_ef2474865e06f466726fc492ed239138_add (data) {
+            geo_json_ef2474865e06f466726fc492ed239138
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_ef2474865e06f466726fc492ed239138_add({"features": [{"geometry": {"coordinates": [-84.59259313, 42.74859993], "type": "Point"}, "id": 3, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 9.7, 11.2)", "DIABETES_C": 10.4, "Geolocatio": "POINT (-84.59259313 42.74859993)", "Latitude": 42.74859993, "Longitude": -84.59259313, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2437, "TractFIPS": 26065003400.0, "id": 3}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_ef2474865e06f466726fc492ed239138.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_daa4cc66528a8166578eee2023d4d183_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_daa4cc66528a8166578eee2023d4d183_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_daa4cc66528a8166578eee2023d4d183 = L.geoJson(null, {
+                onEachFeature: geo_json_daa4cc66528a8166578eee2023d4d183_onEachFeature,
+            
+                style: geo_json_daa4cc66528a8166578eee2023d4d183_styler,
+        });
+
+        function geo_json_daa4cc66528a8166578eee2023d4d183_add (data) {
+            geo_json_daa4cc66528a8166578eee2023d4d183
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_daa4cc66528a8166578eee2023d4d183_add({"features": [{"geometry": {"coordinates": [-84.52463223, 42.727496549999984], "type": "Point"}, "id": 4, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(11.4, 12.6)", "DIABETES_C": 12.0, "Geolocatio": "POINT (-84.52463223 42.72749655)", "Latitude": 42.72749655, "Longitude": -84.52463223, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2371, "TractFIPS": 26065001200.0, "id": 4}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_daa4cc66528a8166578eee2023d4d183.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3 = L.geoJson(null, {
+                onEachFeature: geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3_onEachFeature,
+            
+                style: geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3_styler,
+        });
+
+        function geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3_add (data) {
+            geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3_add({"features": [{"geometry": {"coordinates": [-84.42229389, 42.638686749999984], "type": "Point"}, "id": 5, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 9.3, 11.0)", "DIABETES_C": 10.2, "Geolocatio": "POINT (-84.42229389 42.63868675)", "Latitude": 42.63868675, "Longitude": -84.42229389, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2892, "TractFIPS": 26065005600.0, "id": 5}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_70d4cb9dfd8b5d0f2f7abe0bbdc3f8d3.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_819b9b5c29b289e6d78315d6d4d569f7_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_819b9b5c29b289e6d78315d6d4d569f7_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_819b9b5c29b289e6d78315d6d4d569f7 = L.geoJson(null, {
+                onEachFeature: geo_json_819b9b5c29b289e6d78315d6d4d569f7_onEachFeature,
+            
+                style: geo_json_819b9b5c29b289e6d78315d6d4d569f7_styler,
+        });
+
+        function geo_json_819b9b5c29b289e6d78315d6d4d569f7_add (data) {
+            geo_json_819b9b5c29b289e6d78315d6d4d569f7
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_819b9b5c29b289e6d78315d6d4d569f7_add({"features": [{"geometry": {"coordinates": [-84.55607019999998, 42.74457824], "type": "Point"}, "id": 6, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(10.8, 11.8)", "DIABETES_C": 11.3, "Geolocatio": "POINT (-84.5560702 42.74457824)", "Latitude": 42.74457824, "Longitude": -84.5560702, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2501, "TractFIPS": 26065000700.0, "id": 6}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_819b9b5c29b289e6d78315d6d4d569f7.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_9d7acdb2086ab268eb9da511be2c8024_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_9d7acdb2086ab268eb9da511be2c8024_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_9d7acdb2086ab268eb9da511be2c8024 = L.geoJson(null, {
+                onEachFeature: geo_json_9d7acdb2086ab268eb9da511be2c8024_onEachFeature,
+            
+                style: geo_json_9d7acdb2086ab268eb9da511be2c8024_styler,
+        });
+
+        function geo_json_9d7acdb2086ab268eb9da511be2c8024_add (data) {
+            geo_json_9d7acdb2086ab268eb9da511be2c8024
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_9d7acdb2086ab268eb9da511be2c8024_add({"features": [{"geometry": {"coordinates": [-84.53927875, 42.68952169], "type": "Point"}, "id": 7, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(11.2, 12.7)", "DIABETES_C": 12.0, "Geolocatio": "POINT (-84.53927875 42.68952169)", "Latitude": 42.68952169, "Longitude": -84.53927875, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2455, "TractFIPS": 26065002800.0, "id": 7}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_9d7acdb2086ab268eb9da511be2c8024.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_7766a193cd3dbd378f49458bcf4dc741_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_7766a193cd3dbd378f49458bcf4dc741_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_7766a193cd3dbd378f49458bcf4dc741 = L.geoJson(null, {
+                onEachFeature: geo_json_7766a193cd3dbd378f49458bcf4dc741_onEachFeature,
+            
+                style: geo_json_7766a193cd3dbd378f49458bcf4dc741_styler,
+        });
+
+        function geo_json_7766a193cd3dbd378f49458bcf4dc741_add (data) {
+            geo_json_7766a193cd3dbd378f49458bcf4dc741
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_7766a193cd3dbd378f49458bcf4dc741_add({"features": [{"geometry": {"coordinates": [-84.590668, 42.67292174999998], "type": "Point"}, "id": 8, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(12.2, 13.3)", "DIABETES_C": 12.8, "Geolocatio": "POINT (-84.590668 42.67292175)", "Latitude": 42.67292175, "Longitude": -84.590668, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3403, "TractFIPS": 26065005100.0, "id": 8}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_7766a193cd3dbd378f49458bcf4dc741.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_083c82b3852e22fa63992031fec1f33a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_083c82b3852e22fa63992031fec1f33a_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_083c82b3852e22fa63992031fec1f33a = L.geoJson(null, {
+                onEachFeature: geo_json_083c82b3852e22fa63992031fec1f33a_onEachFeature,
+            
+                style: geo_json_083c82b3852e22fa63992031fec1f33a_styler,
+        });
+
+        function geo_json_083c82b3852e22fa63992031fec1f33a_add (data) {
+            geo_json_083c82b3852e22fa63992031fec1f33a
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_083c82b3852e22fa63992031fec1f33a_add({"features": [{"geometry": {"coordinates": [-84.55044207999998, 42.76640288], "type": "Point"}, "id": 9, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(12.0, 13.2)", "DIABETES_C": 12.5, "Geolocatio": "POINT (-84.55044208 42.76640288)", "Latitude": 42.76640288, "Longitude": -84.55044208, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2245, "TractFIPS": 26065003200.0, "id": 9}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_083c82b3852e22fa63992031fec1f33a.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_d44d57c1170d53f2f51fc4461acb41e0_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_d44d57c1170d53f2f51fc4461acb41e0_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_d44d57c1170d53f2f51fc4461acb41e0 = L.geoJson(null, {
+                onEachFeature: geo_json_d44d57c1170d53f2f51fc4461acb41e0_onEachFeature,
+            
+                style: geo_json_d44d57c1170d53f2f51fc4461acb41e0_styler,
+        });
+
+        function geo_json_d44d57c1170d53f2f51fc4461acb41e0_add (data) {
+            geo_json_d44d57c1170d53f2f51fc4461acb41e0
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_d44d57c1170d53f2f51fc4461acb41e0_add({"features": [{"geometry": {"coordinates": [-84.55319794999998, 42.67005395], "type": "Point"}, "id": 10, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(11.9, 13.1)", "DIABETES_C": 12.5, "Geolocatio": "POINT (-84.55319795 42.67005395)", "Latitude": 42.67005395, "Longitude": -84.55319795, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 4639, "TractFIPS": 26065005303.0, "id": 10}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_d44d57c1170d53f2f51fc4461acb41e0.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_2361ab33425d359dd3d1c93da5b44368_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_2361ab33425d359dd3d1c93da5b44368_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_2361ab33425d359dd3d1c93da5b44368 = L.geoJson(null, {
+                onEachFeature: geo_json_2361ab33425d359dd3d1c93da5b44368_onEachFeature,
+            
+                style: geo_json_2361ab33425d359dd3d1c93da5b44368_styler,
+        });
+
+        function geo_json_2361ab33425d359dd3d1c93da5b44368_add (data) {
+            geo_json_2361ab33425d359dd3d1c93da5b44368
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_2361ab33425d359dd3d1c93da5b44368_add({"features": [{"geometry": {"coordinates": [-84.59529343, 42.72792359], "type": "Point"}, "id": 11, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(10.6, 12.0)", "DIABETES_C": 11.4, "Geolocatio": "POINT (-84.59529343 42.72792359)", "Latitude": 42.72792359, "Longitude": -84.59529343, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2909, "TractFIPS": 26065003500.0, "id": 11}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_2361ab33425d359dd3d1c93da5b44368.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_0256f8a18640df2b5b7eca114a9ba716_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_0256f8a18640df2b5b7eca114a9ba716_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_0256f8a18640df2b5b7eca114a9ba716 = L.geoJson(null, {
+                onEachFeature: geo_json_0256f8a18640df2b5b7eca114a9ba716_onEachFeature,
+            
+                style: geo_json_0256f8a18640df2b5b7eca114a9ba716_styler,
+        });
+
+        function geo_json_0256f8a18640df2b5b7eca114a9ba716_add (data) {
+            geo_json_0256f8a18640df2b5b7eca114a9ba716
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_0256f8a18640df2b5b7eca114a9ba716_add({"features": [{"geometry": {"coordinates": [-84.56825175, 42.71157785], "type": "Point"}, "id": 12, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 9.5, 10.9)", "DIABETES_C": 10.2, "Geolocatio": "POINT (-84.56825175 42.71157785)", "Latitude": 42.71157785, "Longitude": -84.56825175, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 5734, "TractFIPS": 26065007000.0, "id": 12}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_0256f8a18640df2b5b7eca114a9ba716.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_8a8822b7bc079709fa299d211b1dfc03_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_8a8822b7bc079709fa299d211b1dfc03_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_8a8822b7bc079709fa299d211b1dfc03 = L.geoJson(null, {
+                onEachFeature: geo_json_8a8822b7bc079709fa299d211b1dfc03_onEachFeature,
+            
+                style: geo_json_8a8822b7bc079709fa299d211b1dfc03_styler,
+        });
+
+        function geo_json_8a8822b7bc079709fa299d211b1dfc03_add (data) {
+            geo_json_8a8822b7bc079709fa299d211b1dfc03
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_8a8822b7bc079709fa299d211b1dfc03_add({"features": [{"geometry": {"coordinates": [-84.55357237, 42.70114791999998], "type": "Point"}, "id": 13, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(10.6, 11.9)", "DIABETES_C": 11.3, "Geolocatio": "POINT (-84.55357237 42.70114792)", "Latitude": 42.70114792, "Longitude": -84.55357237, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 1889, "TractFIPS": 26065002600.0, "id": 13}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_8a8822b7bc079709fa299d211b1dfc03.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_58f7c976de3fc6d8860463c00bbedf57_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_58f7c976de3fc6d8860463c00bbedf57_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_58f7c976de3fc6d8860463c00bbedf57 = L.geoJson(null, {
+                onEachFeature: geo_json_58f7c976de3fc6d8860463c00bbedf57_onEachFeature,
+            
+                style: geo_json_58f7c976de3fc6d8860463c00bbedf57_styler,
+        });
+
+        function geo_json_58f7c976de3fc6d8860463c00bbedf57_add (data) {
+            geo_json_58f7c976de3fc6d8860463c00bbedf57
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_58f7c976de3fc6d8860463c00bbedf57_add({"features": [{"geometry": {"coordinates": [-84.59096227, 42.70966843], "type": "Point"}, "id": 14, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(13.2, 14.9)", "DIABETES_C": 14.1, "Geolocatio": "POINT (-84.59096227 42.70966843)", "Latitude": 42.70966843, "Longitude": -84.59096227, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 4355, "TractFIPS": 26065001703.0, "id": 14}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_58f7c976de3fc6d8860463c00bbedf57.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_dac129e12ab274f6279b24e026806893_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_dac129e12ab274f6279b24e026806893_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_dac129e12ab274f6279b24e026806893 = L.geoJson(null, {
+                onEachFeature: geo_json_dac129e12ab274f6279b24e026806893_onEachFeature,
+            
+                style: geo_json_dac129e12ab274f6279b24e026806893_styler,
+        });
+
+        function geo_json_dac129e12ab274f6279b24e026806893_add (data) {
+            geo_json_dac129e12ab274f6279b24e026806893
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_dac129e12ab274f6279b24e026806893_add({"features": [{"geometry": {"coordinates": [-84.57246906, 42.69378516], "type": "Point"}, "id": 15, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(13.0, 14.2)", "DIABETES_C": 13.6, "Geolocatio": "POINT (-84.57246906 42.69378516)", "Latitude": 42.69378516, "Longitude": -84.57246906, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 5262, "TractFIPS": 26065003700.0, "id": 15}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_dac129e12ab274f6279b24e026806893.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_91daa620409d33af5d82ce1599563516_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_91daa620409d33af5d82ce1599563516_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_91daa620409d33af5d82ce1599563516 = L.geoJson(null, {
+                onEachFeature: geo_json_91daa620409d33af5d82ce1599563516_onEachFeature,
+            
+                style: geo_json_91daa620409d33af5d82ce1599563516_styler,
+        });
+
+        function geo_json_91daa620409d33af5d82ce1599563516_add (data) {
+            geo_json_91daa620409d33af5d82ce1599563516
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_91daa620409d33af5d82ce1599563516_add({"features": [{"geometry": {"coordinates": [-84.54769525, 42.71689528], "type": "Point"}, "id": 16, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(13.1, 14.5)", "DIABETES_C": 13.8, "Geolocatio": "POINT (-84.54769525 42.71689528)", "Latitude": 42.71689528, "Longitude": -84.54769525, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3410, "TractFIPS": 26065002000.0, "id": 16}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_91daa620409d33af5d82ce1599563516.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_23a29ffae99d654acbbb304493d07409_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_23a29ffae99d654acbbb304493d07409_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_23a29ffae99d654acbbb304493d07409 = L.geoJson(null, {
+                onEachFeature: geo_json_23a29ffae99d654acbbb304493d07409_onEachFeature,
+            
+                style: geo_json_23a29ffae99d654acbbb304493d07409_styler,
+        });
+
+        function geo_json_23a29ffae99d654acbbb304493d07409_add (data) {
+            geo_json_23a29ffae99d654acbbb304493d07409
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_23a29ffae99d654acbbb304493d07409_add({"features": [{"geometry": {"coordinates": [-84.55388666000002, 42.69035403], "type": "Point"}, "id": 17, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(10.3, 11.8)", "DIABETES_C": 10.9, "Geolocatio": "POINT (-84.55388666 42.69035403)", "Latitude": 42.69035403, "Longitude": -84.55388666, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3022, "TractFIPS": 26065002700.0, "id": 17}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_23a29ffae99d654acbbb304493d07409.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_9d1c6687e0a1239030e41703108e835e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_9d1c6687e0a1239030e41703108e835e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_9d1c6687e0a1239030e41703108e835e = L.geoJson(null, {
+                onEachFeature: geo_json_9d1c6687e0a1239030e41703108e835e_onEachFeature,
+            
+                style: geo_json_9d1c6687e0a1239030e41703108e835e_styler,
+        });
+
+        function geo_json_9d1c6687e0a1239030e41703108e835e_add (data) {
+            geo_json_9d1c6687e0a1239030e41703108e835e
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_9d1c6687e0a1239030e41703108e835e_add({"features": [{"geometry": {"coordinates": [-84.52482512, 42.674324859999984], "type": "Point"}, "id": 18, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(11.7, 12.9)", "DIABETES_C": 12.3, "Geolocatio": "POINT (-84.52482512 42.67432486)", "Latitude": 42.67432486, "Longitude": -84.52482512, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3326, "TractFIPS": 26065005304.0, "id": 18}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_9d1c6687e0a1239030e41703108e835e.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_2c99cd496e284ca7ed89567044b1929e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_2c99cd496e284ca7ed89567044b1929e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_2c99cd496e284ca7ed89567044b1929e = L.geoJson(null, {
+                onEachFeature: geo_json_2c99cd496e284ca7ed89567044b1929e_onEachFeature,
+            
+                style: geo_json_2c99cd496e284ca7ed89567044b1929e_styler,
+        });
+
+        function geo_json_2c99cd496e284ca7ed89567044b1929e_add (data) {
+            geo_json_2c99cd496e284ca7ed89567044b1929e
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_2c99cd496e284ca7ed89567044b1929e_add({"features": [{"geometry": {"coordinates": [-84.49763946999998, 42.73941984], "type": "Point"}, "id": 19, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 7.7,  8.9)", "DIABETES_C": 8.3, "Geolocatio": "POINT (-84.49763947 42.73941984)", "Latitude": 42.73941984, "Longitude": -84.49763947, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3994, "TractFIPS": 26065004000.0, "id": 19}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_2c99cd496e284ca7ed89567044b1929e.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_fa9badbaefd032b4b5c8e7768d26adea_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_fa9badbaefd032b4b5c8e7768d26adea_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_fa9badbaefd032b4b5c8e7768d26adea = L.geoJson(null, {
+                onEachFeature: geo_json_fa9badbaefd032b4b5c8e7768d26adea_onEachFeature,
+            
+                style: geo_json_fa9badbaefd032b4b5c8e7768d26adea_styler,
+        });
+
+        function geo_json_fa9badbaefd032b4b5c8e7768d26adea_add (data) {
+            geo_json_fa9badbaefd032b4b5c8e7768d26adea
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_fa9badbaefd032b4b5c8e7768d26adea_add({"features": [{"geometry": {"coordinates": [-84.65550263, 42.71238213], "type": "Point"}, "id": 20, "properties": {"CountyFIPS": 26045, "CountyName": "Eaton", "DIABETES_1": "( 9.0, 10.6)", "DIABETES_C": 9.9, "Geolocatio": "POINT (-84.65550263 42.71238213)", "Latitude": 42.71238213, "Longitude": -84.65550263, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3489, "TractFIPS": 26045020303.0, "id": 20}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_fa9badbaefd032b4b5c8e7768d26adea.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_7c6bd42ff302b10946e0b7392663a4f9_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FFC6C6", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_7c6bd42ff302b10946e0b7392663a4f9_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_7c6bd42ff302b10946e0b7392663a4f9 = L.geoJson(null, {
+                onEachFeature: geo_json_7c6bd42ff302b10946e0b7392663a4f9_onEachFeature,
+            
+                style: geo_json_7c6bd42ff302b10946e0b7392663a4f9_styler,
+        });
+
+        function geo_json_7c6bd42ff302b10946e0b7392663a4f9_add (data) {
+            geo_json_7c6bd42ff302b10946e0b7392663a4f9
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_7c6bd42ff302b10946e0b7392663a4f9_add({"features": [{"geometry": {"coordinates": [-84.48225942, 42.70026212], "type": "Point"}, "id": 21, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 1.2,  1.4)", "DIABETES_C": 1.3, "Geolocatio": "POINT (-84.48225942 42.70026212)", "Latitude": 42.70026212, "Longitude": -84.48225942, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 861, "TractFIPS": 26065980000.0, "id": 21}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_7c6bd42ff302b10946e0b7392663a4f9.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_6c0ab2834a3dc344cf94f861cf895278_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_6c0ab2834a3dc344cf94f861cf895278_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_6c0ab2834a3dc344cf94f861cf895278 = L.geoJson(null, {
+                onEachFeature: geo_json_6c0ab2834a3dc344cf94f861cf895278_onEachFeature,
+            
+                style: geo_json_6c0ab2834a3dc344cf94f861cf895278_styler,
+        });
+
+        function geo_json_6c0ab2834a3dc344cf94f861cf895278_add (data) {
+            geo_json_6c0ab2834a3dc344cf94f861cf895278
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_6c0ab2834a3dc344cf94f861cf895278_add({"features": [{"geometry": {"coordinates": [-84.52012129, 42.75401332], "type": "Point"}, "id": 22, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 8.9,  9.8)", "DIABETES_C": 9.4, "Geolocatio": "POINT (-84.52012129 42.75401332)", "Latitude": 42.75401332, "Longitude": -84.52012129, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 5786, "TractFIPS": 26065003103.0, "id": 22}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_6c0ab2834a3dc344cf94f861cf895278.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_1ed8fc859b7861a93aa23e35a1b6bd80_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_1ed8fc859b7861a93aa23e35a1b6bd80_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_1ed8fc859b7861a93aa23e35a1b6bd80 = L.geoJson(null, {
+                onEachFeature: geo_json_1ed8fc859b7861a93aa23e35a1b6bd80_onEachFeature,
+            
+                style: geo_json_1ed8fc859b7861a93aa23e35a1b6bd80_styler,
+        });
+
+        function geo_json_1ed8fc859b7861a93aa23e35a1b6bd80_add (data) {
+            geo_json_1ed8fc859b7861a93aa23e35a1b6bd80
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_1ed8fc859b7861a93aa23e35a1b6bd80_add({"features": [{"geometry": {"coordinates": [-84.53022965, 42.73500773], "type": "Point"}, "id": 23, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 8.7,  9.9)", "DIABETES_C": 9.3, "Geolocatio": "POINT (-84.53022965 42.73500773)", "Latitude": 42.73500773, "Longitude": -84.53022965, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3425, "TractFIPS": 26065006500.0, "id": 23}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_1ed8fc859b7861a93aa23e35a1b6bd80.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_5f58af57a567f8560e7b536c4c17226c_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_5f58af57a567f8560e7b536c4c17226c_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_5f58af57a567f8560e7b536c4c17226c = L.geoJson(null, {
+                onEachFeature: geo_json_5f58af57a567f8560e7b536c4c17226c_onEachFeature,
+            
+                style: geo_json_5f58af57a567f8560e7b536c4c17226c_styler,
+        });
+
+        function geo_json_5f58af57a567f8560e7b536c4c17226c_add (data) {
+            geo_json_5f58af57a567f8560e7b536c4c17226c
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_5f58af57a567f8560e7b536c4c17226c_add({"features": [{"geometry": {"coordinates": [-84.55906035999999, 42.73769762], "type": "Point"}, "id": 24, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 8.5,  9.3)", "DIABETES_C": 8.9, "Geolocatio": "POINT (-84.55906036 42.73769762)", "Latitude": 42.73769762, "Longitude": -84.55906036, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 1649, "TractFIPS": 26065000600.0, "id": 24}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_5f58af57a567f8560e7b536c4c17226c.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_61bae084ae8cb3b607658d46c25cb194_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF8C8C", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_61bae084ae8cb3b607658d46c25cb194_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_61bae084ae8cb3b607658d46c25cb194 = L.geoJson(null, {
+                onEachFeature: geo_json_61bae084ae8cb3b607658d46c25cb194_onEachFeature,
+            
+                style: geo_json_61bae084ae8cb3b607658d46c25cb194_styler,
+        });
+
+        function geo_json_61bae084ae8cb3b607658d46c25cb194_add (data) {
+            geo_json_61bae084ae8cb3b607658d46c25cb194
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_61bae084ae8cb3b607658d46c25cb194_add({"features": [{"geometry": {"coordinates": [-84.43848678, 42.69407606999998], "type": "Point"}, "id": 25, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 6.8,  7.7)", "DIABETES_C": 7.2, "Geolocatio": "POINT (-84.43848678 42.69407607)", "Latitude": 42.69407607, "Longitude": -84.43848678, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 6387, "TractFIPS": 26065005001.0, "id": 25}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_61bae084ae8cb3b607658d46c25cb194.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_1b3131548565ca3732e4331ddb92ce2b_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_1b3131548565ca3732e4331ddb92ce2b_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_1b3131548565ca3732e4331ddb92ce2b = L.geoJson(null, {
+                onEachFeature: geo_json_1b3131548565ca3732e4331ddb92ce2b_onEachFeature,
+            
+                style: geo_json_1b3131548565ca3732e4331ddb92ce2b_styler,
+        });
+
+        function geo_json_1b3131548565ca3732e4331ddb92ce2b_add (data) {
+            geo_json_1b3131548565ca3732e4331ddb92ce2b
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_1b3131548565ca3732e4331ddb92ce2b_add({"features": [{"geometry": {"coordinates": [-84.54985100999998, 42.7423859], "type": "Point"}, "id": 26, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(12.7, 13.7)", "DIABETES_C": 13.2, "Geolocatio": "POINT (-84.54985101 42.7423859)", "Latitude": 42.7423859, "Longitude": -84.54985101, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3082, "TractFIPS": 26065006600.0, "id": 26}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_1b3131548565ca3732e4331ddb92ce2b.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_28a53e52079f553d4b32d6bb695ea5f5_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_28a53e52079f553d4b32d6bb695ea5f5_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_28a53e52079f553d4b32d6bb695ea5f5 = L.geoJson(null, {
+                onEachFeature: geo_json_28a53e52079f553d4b32d6bb695ea5f5_onEachFeature,
+            
+                style: geo_json_28a53e52079f553d4b32d6bb695ea5f5_styler,
+        });
+
+        function geo_json_28a53e52079f553d4b32d6bb695ea5f5_add (data) {
+            geo_json_28a53e52079f553d4b32d6bb695ea5f5
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_28a53e52079f553d4b32d6bb695ea5f5_add({"features": [{"geometry": {"coordinates": [-84.56330875999998, 42.62060226], "type": "Point"}, "id": 27, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 8.9, 10.1)", "DIABETES_C": 9.5, "Geolocatio": "POINT (-84.56330876 42.62060226)", "Latitude": 42.62060226, "Longitude": -84.56330876, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 5599, "TractFIPS": 26065005501.0, "id": 27}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_28a53e52079f553d4b32d6bb695ea5f5.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_16118e5b77ebc28813cad319b6927454_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_16118e5b77ebc28813cad319b6927454_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_16118e5b77ebc28813cad319b6927454 = L.geoJson(null, {
+                onEachFeature: geo_json_16118e5b77ebc28813cad319b6927454_onEachFeature,
+            
+                style: geo_json_16118e5b77ebc28813cad319b6927454_styler,
+        });
+
+        function geo_json_16118e5b77ebc28813cad319b6927454_add (data) {
+            geo_json_16118e5b77ebc28813cad319b6927454
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_16118e5b77ebc28813cad319b6927454_add({"features": [{"geometry": {"coordinates": [-84.59710101, 42.6903636], "type": "Point"}, "id": 28, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(13.5, 15.3)", "DIABETES_C": 14.3, "Geolocatio": "POINT (-84.59710101 42.6903636)", "Latitude": 42.6903636, "Longitude": -84.59710101, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3795, "TractFIPS": 26065003601.0, "id": 28}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_16118e5b77ebc28813cad319b6927454.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_d728dec54b3290f73f129ea7f2522621_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_d728dec54b3290f73f129ea7f2522621_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_d728dec54b3290f73f129ea7f2522621 = L.geoJson(null, {
+                onEachFeature: geo_json_d728dec54b3290f73f129ea7f2522621_onEachFeature,
+            
+                style: geo_json_d728dec54b3290f73f129ea7f2522621_styler,
+        });
+
+        function geo_json_d728dec54b3290f73f129ea7f2522621_add (data) {
+            geo_json_d728dec54b3290f73f129ea7f2522621
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_d728dec54b3290f73f129ea7f2522621_add({"features": [{"geometry": {"coordinates": [-84.622571, 42.70158746], "type": "Point"}, "id": 29, "properties": {"CountyFIPS": 26045, "CountyName": "Eaton", "DIABETES_1": "(12.1, 13.1)", "DIABETES_C": 12.6, "Geolocatio": "POINT (-84.622571 42.70158746)", "Latitude": 42.70158746, "Longitude": -84.622571, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 4234, "TractFIPS": 26045020202.0, "id": 29}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_d728dec54b3290f73f129ea7f2522621.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_002685698ae5066fbbe8013b3760586d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_002685698ae5066fbbe8013b3760586d_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_002685698ae5066fbbe8013b3760586d = L.geoJson(null, {
+                onEachFeature: geo_json_002685698ae5066fbbe8013b3760586d_onEachFeature,
+            
+                style: geo_json_002685698ae5066fbbe8013b3760586d_styler,
+        });
+
+        function geo_json_002685698ae5066fbbe8013b3760586d_add (data) {
+            geo_json_002685698ae5066fbbe8013b3760586d
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_002685698ae5066fbbe8013b3760586d_add({"features": [{"geometry": {"coordinates": [-84.53115731000001, 42.72268599], "type": "Point"}, "id": 30, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(12.8, 14.1)", "DIABETES_C": 13.5, "Geolocatio": "POINT (-84.53115731 42.72268599)", "Latitude": 42.72268599, "Longitude": -84.53115731, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 1916, "TractFIPS": 26065002101.0, "id": 30}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_002685698ae5066fbbe8013b3760586d.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_3d37e49383a4f61f30a2a8fa02ee76d3_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_3d37e49383a4f61f30a2a8fa02ee76d3_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_3d37e49383a4f61f30a2a8fa02ee76d3 = L.geoJson(null, {
+                onEachFeature: geo_json_3d37e49383a4f61f30a2a8fa02ee76d3_onEachFeature,
+            
+                style: geo_json_3d37e49383a4f61f30a2a8fa02ee76d3_styler,
+        });
+
+        function geo_json_3d37e49383a4f61f30a2a8fa02ee76d3_add (data) {
+            geo_json_3d37e49383a4f61f30a2a8fa02ee76d3
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_3d37e49383a4f61f30a2a8fa02ee76d3_add({"features": [{"geometry": {"coordinates": [-84.50127691, 42.75157961], "type": "Point"}, "id": 31, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 7.5,  8.7)", "DIABETES_C": 8.1, "Geolocatio": "POINT (-84.50127691 42.75157961)", "Latitude": 42.75157961, "Longitude": -84.50127691, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 4077, "TractFIPS": 26065003801.0, "id": 31}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_3d37e49383a4f61f30a2a8fa02ee76d3.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_f8f708a2d685122623a92e4c96c09369_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_f8f708a2d685122623a92e4c96c09369_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_f8f708a2d685122623a92e4c96c09369 = L.geoJson(null, {
+                onEachFeature: geo_json_f8f708a2d685122623a92e4c96c09369_onEachFeature,
+            
+                style: geo_json_f8f708a2d685122623a92e4c96c09369_styler,
+        });
+
+        function geo_json_f8f708a2d685122623a92e4c96c09369_add (data) {
+            geo_json_f8f708a2d685122623a92e4c96c09369
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_f8f708a2d685122623a92e4c96c09369_add({"features": [{"geometry": {"coordinates": [-84.69413857, 42.726296349999984], "type": "Point"}, "id": 32, "properties": {"CountyFIPS": 26045, "CountyName": "Eaton", "DIABETES_1": "( 8.0,  9.5)", "DIABETES_C": 8.8, "Geolocatio": "POINT (-84.69413857 42.72629635)", "Latitude": 42.72629635, "Longitude": -84.69413857, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 6149, "TractFIPS": 26045020302.0, "id": 32}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_f8f708a2d685122623a92e4c96c09369.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_087a89afeba73d0348c8bbc2cb67354d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_087a89afeba73d0348c8bbc2cb67354d_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_087a89afeba73d0348c8bbc2cb67354d = L.geoJson(null, {
+                onEachFeature: geo_json_087a89afeba73d0348c8bbc2cb67354d_onEachFeature,
+            
+                style: geo_json_087a89afeba73d0348c8bbc2cb67354d_styler,
+        });
+
+        function geo_json_087a89afeba73d0348c8bbc2cb67354d_add (data) {
+            geo_json_087a89afeba73d0348c8bbc2cb67354d
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_087a89afeba73d0348c8bbc2cb67354d_add({"features": [{"geometry": {"coordinates": [-84.58919035, 42.75839172], "type": "Point"}, "id": 33, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(10.1, 11.6)", "DIABETES_C": 10.9, "Geolocatio": "POINT (-84.58919035 42.75839172)", "Latitude": 42.75839172, "Longitude": -84.58919035, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2242, "TractFIPS": 26065003302.0, "id": 33}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_087a89afeba73d0348c8bbc2cb67354d.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_4dea054161130274aa638115ab93472e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_4dea054161130274aa638115ab93472e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4dea054161130274aa638115ab93472e = L.geoJson(null, {
+                onEachFeature: geo_json_4dea054161130274aa638115ab93472e_onEachFeature,
+            
+                style: geo_json_4dea054161130274aa638115ab93472e_styler,
+        });
+
+        function geo_json_4dea054161130274aa638115ab93472e_add (data) {
+            geo_json_4dea054161130274aa638115ab93472e
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_4dea054161130274aa638115ab93472e_add({"features": [{"geometry": {"coordinates": [-84.58376592, 42.65137482], "type": "Point"}, "id": 34, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 7.6,  8.6)", "DIABETES_C": 8.1, "Geolocatio": "POINT (-84.58376592 42.65137482)", "Latitude": 42.65137482, "Longitude": -84.58376592, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3515, "TractFIPS": 26065005202.0, "id": 34}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_4dea054161130274aa638115ab93472e.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_fecdb567a3d08687133b92b79c4e663e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_fecdb567a3d08687133b92b79c4e663e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_fecdb567a3d08687133b92b79c4e663e = L.geoJson(null, {
+                onEachFeature: geo_json_fecdb567a3d08687133b92b79c4e663e_onEachFeature,
+            
+                style: geo_json_fecdb567a3d08687133b92b79c4e663e_styler,
+        });
+
+        function geo_json_fecdb567a3d08687133b92b79c4e663e_add (data) {
+            geo_json_fecdb567a3d08687133b92b79c4e663e
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_fecdb567a3d08687133b92b79c4e663e_add({"features": [{"geometry": {"coordinates": [-84.57384064999998, 42.74009493], "type": "Point"}, "id": 35, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 9.5, 10.8)", "DIABETES_C": 10.1, "Geolocatio": "POINT (-84.57384065 42.74009493)", "Latitude": 42.74009493, "Longitude": -84.57384065, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2803, "TractFIPS": 26065000400.0, "id": 35}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_fecdb567a3d08687133b92b79c4e663e.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_4d84dfe9a5fe47d201c2d6b751399acd_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FFC6C6", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_4d84dfe9a5fe47d201c2d6b751399acd_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4d84dfe9a5fe47d201c2d6b751399acd = L.geoJson(null, {
+                onEachFeature: geo_json_4d84dfe9a5fe47d201c2d6b751399acd_onEachFeature,
+            
+                style: geo_json_4d84dfe9a5fe47d201c2d6b751399acd_styler,
+        });
+
+        function geo_json_4d84dfe9a5fe47d201c2d6b751399acd_add (data) {
+            geo_json_4d84dfe9a5fe47d201c2d6b751399acd
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_4d84dfe9a5fe47d201c2d6b751399acd_add({"features": [{"geometry": {"coordinates": [-84.50779172999998, 42.686642079999984], "type": "Point"}, "id": 36, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 3.7,  4.2)", "DIABETES_C": 4.0, "Geolocatio": "POINT (-84.50779173 42.68664208)", "Latitude": 42.68664208, "Longitude": -84.50779173, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3886, "TractFIPS": 26065002902.0, "id": 36}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_4d84dfe9a5fe47d201c2d6b751399acd.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_33033b924f4aa94fbdb05cf58f915493_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_33033b924f4aa94fbdb05cf58f915493_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_33033b924f4aa94fbdb05cf58f915493 = L.geoJson(null, {
+                onEachFeature: geo_json_33033b924f4aa94fbdb05cf58f915493_onEachFeature,
+            
+                style: geo_json_33033b924f4aa94fbdb05cf58f915493_styler,
+        });
+
+        function geo_json_33033b924f4aa94fbdb05cf58f915493_add (data) {
+            geo_json_33033b924f4aa94fbdb05cf58f915493
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_33033b924f4aa94fbdb05cf58f915493_add({"features": [{"geometry": {"coordinates": [-84.54459238, 42.7582794], "type": "Point"}, "id": 37, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(11.6, 12.9)", "DIABETES_C": 12.2, "Geolocatio": "POINT (-84.54459238 42.7582794)", "Latitude": 42.7582794, "Longitude": -84.54459238, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2030, "TractFIPS": 26065000100.0, "id": 37}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_33033b924f4aa94fbdb05cf58f915493.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_dc935902b107d74610e51c087db5a787_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF8C8C", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_dc935902b107d74610e51c087db5a787_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_dc935902b107d74610e51c087db5a787 = L.geoJson(null, {
+                onEachFeature: geo_json_dc935902b107d74610e51c087db5a787_onEachFeature,
+            
+                style: geo_json_dc935902b107d74610e51c087db5a787_styler,
+        });
+
+        function geo_json_dc935902b107d74610e51c087db5a787_add (data) {
+            geo_json_dc935902b107d74610e51c087db5a787
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_dc935902b107d74610e51c087db5a787_add({"features": [{"geometry": {"coordinates": [-84.51531811, 42.73540857], "type": "Point"}, "id": 38, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 6.9,  7.9)", "DIABETES_C": 7.4, "Geolocatio": "POINT (-84.51531811 42.73540857)", "Latitude": 42.73540857, "Longitude": -84.51531811, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 2203, "TractFIPS": 26065001000.0, "id": 38}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_dc935902b107d74610e51c087db5a787.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_2ba03dc17cdf8976fd6d9444feaa8249_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_2ba03dc17cdf8976fd6d9444feaa8249_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_2ba03dc17cdf8976fd6d9444feaa8249 = L.geoJson(null, {
+                onEachFeature: geo_json_2ba03dc17cdf8976fd6d9444feaa8249_onEachFeature,
+            
+                style: geo_json_2ba03dc17cdf8976fd6d9444feaa8249_styler,
+        });
+
+        function geo_json_2ba03dc17cdf8976fd6d9444feaa8249_add (data) {
+            geo_json_2ba03dc17cdf8976fd6d9444feaa8249
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_2ba03dc17cdf8976fd6d9444feaa8249_add({"features": [{"geometry": {"coordinates": [-84.56314594, 42.729629819999985], "type": "Point"}, "id": 39, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(12.6, 13.7)", "DIABETES_C": 13.2, "Geolocatio": "POINT (-84.56314594 42.72962982)", "Latitude": 42.72962982, "Longitude": -84.56314594, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3769, "TractFIPS": 26065006700.0, "id": 39}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_2ba03dc17cdf8976fd6d9444feaa8249.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_cd69d74f082114ae0eb2f31b536aadce_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_cd69d74f082114ae0eb2f31b536aadce_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_cd69d74f082114ae0eb2f31b536aadce = L.geoJson(null, {
+                onEachFeature: geo_json_cd69d74f082114ae0eb2f31b536aadce_onEachFeature,
+            
+                style: geo_json_cd69d74f082114ae0eb2f31b536aadce_styler,
+        });
+
+        function geo_json_cd69d74f082114ae0eb2f31b536aadce_add (data) {
+            geo_json_cd69d74f082114ae0eb2f31b536aadce
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_cd69d74f082114ae0eb2f31b536aadce_add({"features": [{"geometry": {"coordinates": [-84.53480596999998, 42.70965557], "type": "Point"}, "id": 40, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 7.8,  9.1)", "DIABETES_C": 8.5, "Geolocatio": "POINT (-84.53480597 42.70965557)", "Latitude": 42.70965557, "Longitude": -84.53480597, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 1596, "TractFIPS": 26065002200.0, "id": 40}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_cd69d74f082114ae0eb2f31b536aadce.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_f22f185ef7758f05b0934c9cf9838234_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_f22f185ef7758f05b0934c9cf9838234_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_f22f185ef7758f05b0934c9cf9838234 = L.geoJson(null, {
+                onEachFeature: geo_json_f22f185ef7758f05b0934c9cf9838234_onEachFeature,
+            
+                style: geo_json_f22f185ef7758f05b0934c9cf9838234_styler,
+        });
+
+        function geo_json_f22f185ef7758f05b0934c9cf9838234_add (data) {
+            geo_json_f22f185ef7758f05b0934c9cf9838234
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_f22f185ef7758f05b0934c9cf9838234_add({"features": [{"geometry": {"coordinates": [-84.58686325, 42.69445711], "type": "Point"}, "id": 41, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(13.0, 14.1)", "DIABETES_C": 13.7, "Geolocatio": "POINT (-84.58686325 42.69445711)", "Latitude": 42.69445711, "Longitude": -84.58686325, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3488, "TractFIPS": 26065003602.0, "id": 41}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_f22f185ef7758f05b0934c9cf9838234.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_6516fdd0fb0a0ba636798cf4e0a26c32_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_6516fdd0fb0a0ba636798cf4e0a26c32_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_6516fdd0fb0a0ba636798cf4e0a26c32 = L.geoJson(null, {
+                onEachFeature: geo_json_6516fdd0fb0a0ba636798cf4e0a26c32_onEachFeature,
+            
+                style: geo_json_6516fdd0fb0a0ba636798cf4e0a26c32_styler,
+        });
+
+        function geo_json_6516fdd0fb0a0ba636798cf4e0a26c32_add (data) {
+            geo_json_6516fdd0fb0a0ba636798cf4e0a26c32
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_6516fdd0fb0a0ba636798cf4e0a26c32_add({"features": [{"geometry": {"coordinates": [-84.58719814, 42.765483479999986], "type": "Point"}, "id": 42, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(11.5, 12.5)", "DIABETES_C": 12.0, "Geolocatio": "POINT (-84.58719814 42.76548348)", "Latitude": 42.76548348, "Longitude": -84.58719814, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3074, "TractFIPS": 26065003301.0, "id": 42}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_6516fdd0fb0a0ba636798cf4e0a26c32.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_f20d34fc2fc83f56708a5e58d0de0eff_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_f20d34fc2fc83f56708a5e58d0de0eff_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_f20d34fc2fc83f56708a5e58d0de0eff = L.geoJson(null, {
+                onEachFeature: geo_json_f20d34fc2fc83f56708a5e58d0de0eff_onEachFeature,
+            
+                style: geo_json_f20d34fc2fc83f56708a5e58d0de0eff_styler,
+        });
+
+        function geo_json_f20d34fc2fc83f56708a5e58d0de0eff_add (data) {
+            geo_json_f20d34fc2fc83f56708a5e58d0de0eff
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_f20d34fc2fc83f56708a5e58d0de0eff_add({"features": [{"geometry": {"coordinates": [-84.51573974, 42.70231093], "type": "Point"}, "id": 43, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 8.3,  9.6)", "DIABETES_C": 9.0, "Geolocatio": "POINT (-84.51573974 42.70231093)", "Latitude": 42.70231093, "Longitude": -84.51573974, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3076, "TractFIPS": 26065002901.0, "id": 43}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_f20d34fc2fc83f56708a5e58d0de0eff.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_a5a66a4dfd140629114766e9143721b8_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_a5a66a4dfd140629114766e9143721b8_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_a5a66a4dfd140629114766e9143721b8 = L.geoJson(null, {
+                onEachFeature: geo_json_a5a66a4dfd140629114766e9143721b8_onEachFeature,
+            
+                style: geo_json_a5a66a4dfd140629114766e9143721b8_styler,
+        });
+
+        function geo_json_a5a66a4dfd140629114766e9143721b8_add (data) {
+            geo_json_a5a66a4dfd140629114766e9143721b8
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_a5a66a4dfd140629114766e9143721b8_add({"features": [{"geometry": {"coordinates": [-84.67740022999999, 42.658834769999984], "type": "Point"}, "id": 44, "properties": {"CountyFIPS": 26045, "CountyName": "Eaton", "DIABETES_1": "(10.4, 11.3)", "DIABETES_C": 10.9, "Geolocatio": "POINT (-84.67740023 42.65883477)", "Latitude": 42.65883477, "Longitude": -84.67740023, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3975, "TractFIPS": 26045021401.0, "id": 44}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_a5a66a4dfd140629114766e9143721b8.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF8C8C", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42 = L.geoJson(null, {
+                onEachFeature: geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42_onEachFeature,
+            
+                style: geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42_styler,
+        });
+
+        function geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42_add (data) {
+            geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42_add({"features": [{"geometry": {"coordinates": [-84.51370015, 42.66117187], "type": "Point"}, "id": 45, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "( 7.3,  7.9)", "DIABETES_C": 7.6, "Geolocatio": "POINT (-84.51370015 42.66117187)", "Latitude": 42.66117187, "Longitude": -84.51370015, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 6907, "TractFIPS": 26065005302.0, "id": 45}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_c3ba10e5366d8bc48d20fdd9b0ff2d42.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_c526db116ac258efe0ff351438a6ed33_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF0000", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_c526db116ac258efe0ff351438a6ed33_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c526db116ac258efe0ff351438a6ed33 = L.geoJson(null, {
+                onEachFeature: geo_json_c526db116ac258efe0ff351438a6ed33_onEachFeature,
+            
+                style: geo_json_c526db116ac258efe0ff351438a6ed33_styler,
+        });
+
+        function geo_json_c526db116ac258efe0ff351438a6ed33_add (data) {
+            geo_json_c526db116ac258efe0ff351438a6ed33
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_c526db116ac258efe0ff351438a6ed33_add({"features": [{"geometry": {"coordinates": [-84.57080776999999, 42.67077615], "type": "Point"}, "id": 46, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(12.3, 13.4)", "DIABETES_C": 12.9, "Geolocatio": "POINT (-84.57080777 42.67077615)", "Latitude": 42.67077615, "Longitude": -84.57080777, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 5516, "TractFIPS": 26065005201.0, "id": 46}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_c526db116ac258efe0ff351438a6ed33.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_73cdb2ad58b3b39856881081fd91feda_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#FF5252", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_73cdb2ad58b3b39856881081fd91feda_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_73cdb2ad58b3b39856881081fd91feda = L.geoJson(null, {
+                onEachFeature: geo_json_73cdb2ad58b3b39856881081fd91feda_onEachFeature,
+            
+                style: geo_json_73cdb2ad58b3b39856881081fd91feda_styler,
+        });
+
+        function geo_json_73cdb2ad58b3b39856881081fd91feda_add (data) {
+            geo_json_73cdb2ad58b3b39856881081fd91feda
+                .addData(data)
+                .addTo(feature_group_9e027952c1471e17634dcabcc3b314ef);
+        }
+            geo_json_73cdb2ad58b3b39856881081fd91feda_add({"features": [{"geometry": {"coordinates": [-84.53711656999998, 42.74720315], "type": "Point"}, "id": 47, "properties": {"CountyFIPS": 26065, "CountyName": "Ingham", "DIABETES_1": "(10.3, 11.3)", "DIABETES_C": 10.7, "Geolocatio": "POINT (-84.53711657 42.74720315)", "Latitude": 42.74720315, "Longitude": -84.53711657, "StateAbbr": "MI", "StateDesc": "Michigan", "TotalPopul": 3172, "TractFIPS": 26065000800.0, "id": 47}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_73cdb2ad58b3b39856881081fd91feda.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["DIABETES_C"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+    var color_map_29b326f88430f281b5a11ec03d90f42c = {};
+
+    
+    color_map_29b326f88430f281b5a11ec03d90f42c.color = d3.scale.threshold()
+              .domain([1.3, 1.327254509018036, 1.3545090180360722, 1.3817635270541082, 1.4090180360721443, 1.4362725450901803, 1.4635270541082164, 1.4907815631262527, 1.5180360721442887, 1.5452905811623248, 1.5725450901803608, 1.5997995991983969, 1.627054108216433, 1.654308617234469, 1.681563126252505, 1.708817635270541, 1.7360721442885771, 1.7633266533066132, 1.7905811623246493, 1.8178356713426855, 1.8450901803607214, 1.8723446893787576, 1.8995991983967935, 1.9268537074148298, 1.9541082164328656, 1.9813627254509019, 2.0086172344689377, 2.035871743486974, 2.0631262525050102, 2.090380761523046, 2.1176352705410824, 2.144889779559118, 2.1721442885771545, 2.1993987975951903, 2.2266533066132266, 2.2539078156312624, 2.2811623246492987, 2.3084168336673345, 2.335671342685371, 2.362925851703407, 2.390180360721443, 2.4174348697394787, 2.444689378757515, 2.4719438877755513, 2.499198396793587, 2.526452905811623, 2.5537074148296597, 2.5809619238476955, 2.6082164328657313, 2.6354709418837676, 2.662725450901804, 2.6899799599198397, 2.7172344689378756, 2.744488977955912, 2.771743486973948, 2.798997995991984, 2.8262525050100202, 2.853507014028056, 2.8807615230460923, 2.908016032064128, 2.9352705410821645, 2.9625250501002007, 2.9897795591182366, 3.0170340681362724, 3.0442885771543087, 3.071543086172345, 3.098797595190381, 3.1260521042084166, 3.153306613226453, 3.180561122244489, 3.207815631262525, 3.2350701402805613, 3.262324649298597, 3.2895791583166334, 3.3168336673346692, 3.344088176352705, 3.3713426853707418, 3.3985971943887776, 3.4258517034068134, 3.4531062124248493, 3.480360721442886, 3.507615230460922, 3.5348697394789577, 3.5621242484969944, 3.58937875751503, 3.616633266533066, 3.643887775551102, 3.6711422845691386, 3.6983967935871744, 3.7256513026052103, 3.752905811623246, 3.780160320641283, 3.8074148296593187, 3.8346693386773545, 3.8619238476953903, 3.889178356713427, 3.916432865731463, 3.9436873747494987, 3.9709418837675354, 3.9981963927855713, 4.025450901803607, 4.052705410821643, 4.07995991983968, 4.1072144288577155, 4.134468937875751, 4.161723446893788, 4.188977955911824, 4.21623246492986, 4.2434869739478955, 4.270741482965931, 4.297995991983968, 4.325250501002004, 4.352505010020041, 4.3797595190380765, 4.407014028056112, 4.434268537074148, 4.461523046092184, 4.488777555110221, 4.5160320641282565, 4.543286573146292, 4.570541082164329, 4.597795591182365, 4.625050100200401, 4.652304609218437, 4.679559118236472, 4.706813627254509, 4.734068136272545, 4.761322645290582, 4.7885771543086175, 4.815831663326653, 4.843086172344689, 4.870340681362725, 4.897595190380762, 4.924849699398798, 4.952104208416833, 4.97935871743487, 5.006613226452906, 5.033867735470942, 5.061122244488978, 5.0883767535070135, 5.11563126252505, 5.142885771543086, 5.170140280561123, 5.197394789579159, 5.224649298597194, 5.25190380761523, 5.279158316633266, 5.306412825651303, 5.333667334669339, 5.3609218436873745, 5.38817635270541, 5.415430861723446, 5.442685370741483, 5.469939879759519, 5.497194388777555, 5.524448897795591, 5.551703406813627, 5.578957915831663, 5.606212424849699, 5.6334669338677354, 5.660721442885771, 5.687975951903807, 5.715230460921843, 5.742484969939879, 5.7697394789579155, 5.796993987975951, 5.824248496993988, 5.851503006012024, 5.87875751503006, 5.906012024048096, 5.933266533066132, 5.960521042084168, 5.987775551102204, 6.01503006012024, 6.0422845691382765, 6.069539078156312, 6.096793587174348, 6.124048096192384, 6.15130260521042, 6.1785571142284565, 6.205811623246492, 6.233066132264529, 6.260320641282565, 6.287575150300601, 6.3148296593186375, 6.342084168336673, 6.369338677354709, 6.396593186372745, 6.423847695390781, 6.4511022044088175, 6.478356713426853, 6.505611222444889, 6.532865731462925, 6.560120240480961, 6.587374749498998, 6.614629258517034, 6.64188376753507, 6.669138276553106, 6.696392785571142, 6.7236472945891785, 6.750901803607214, 6.77815631262525, 6.805410821643286, 6.832665330661322, 6.859919839679359, 6.887174348697394, 6.91442885771543, 6.941683366733466, 6.968937875751502, 6.996192384769539, 7.023446893787575, 7.050701402805611, 7.077955911823647, 7.105210420841683, 7.13246492985972, 7.159719438877755, 7.186973947895791, 7.214228456913827, 7.241482965931863, 7.2687374749499, 7.2959919839679355, 7.323246492985971, 7.350501002004007, 7.377755511022043, 7.405010020040081, 7.432264529058116, 7.459519038076152, 7.486773547094188, 7.514028056112224, 7.541282565130261, 7.5685370741482965, 7.595791583166332, 7.623046092184368, 7.650300601202404, 7.677555110220441, 7.7048096192384765, 7.732064128256512, 7.759318637274548, 7.786573146292584, 7.813827655310622, 7.8410821643286575, 7.868336673346693, 7.895591182364729, 7.922845691382765, 7.950100200400802, 7.9773547094188375, 8.004609218436874, 8.03186372745491, 8.059118236472946, 8.086372745490982, 8.113627254509018, 8.140881763527053, 8.16813627254509, 8.195390781563127, 8.222645290581163, 8.249899799599199, 8.277154308617234, 8.30440881763527, 8.331663326653306, 8.358917835671344, 8.38617234468938, 8.413426853707415, 8.440681362725451, 8.467935871743487, 8.495190380761523, 8.522444889779559, 8.549699398797594, 8.576953907815632, 8.604208416833668, 8.631462925851704, 8.65871743486974, 8.685971943887775, 8.713226452905811, 8.740480961923847, 8.767735470941885, 8.79498997995992, 8.822244488977956, 8.849498997995992, 8.876753507014028, 8.904008016032064, 8.9312625250501, 8.958517034068135, 8.985771543086173, 9.013026052104209, 9.040280561122245, 9.06753507014028, 9.094789579158316, 9.122044088176352, 9.149298597194388, 9.176553106212426, 9.203807615230462, 9.231062124248497, 9.258316633266533, 9.285571142284569, 9.312825651302607, 9.340080160320642, 9.367334669338678, 9.394589178356714, 9.42184368737475, 9.449098196392786, 9.476352705410822, 9.503607214428857, 9.530861723446893, 9.558116232464931, 9.585370741482967, 9.612625250501003, 9.639879759519038, 9.667134268537074, 9.694388777555112, 9.721643286573146, 9.748897795591184, 9.776152304609218, 9.803406813627255, 9.830661322645291, 9.857915831663327, 9.885170340681363, 9.912424849699399, 9.939679358717434, 9.966933867735472, 9.994188376753508, 10.021442885771544, 10.04869739478958, 10.075951903807615, 10.103206412825653, 10.130460921843687, 10.157715430861725, 10.184969939879759, 10.212224448897796, 10.239478957915832, 10.266733466933868, 10.293987975951904, 10.32124248496994, 10.348496993987977, 10.375751503006013, 10.403006012024049, 10.430260521042085, 10.45751503006012, 10.484769539078156, 10.512024048096194, 10.539278557114228, 10.566533066132266, 10.5937875751503, 10.621042084168337, 10.648296593186373, 10.675551102204409, 10.702805611222445, 10.73006012024048, 10.757314629258518, 10.784569138276554, 10.81182364729459, 10.839078156312626, 10.866332665330662, 10.893587174348697, 10.920841683366735, 10.948096192384769, 10.975350701402807, 11.00260521042084, 11.029859719438878, 11.057114228456914, 11.08436873747495, 11.111623246492986, 11.138877755511022, 11.16613226452906, 11.193386773547095, 11.220641282565131, 11.247895791583167, 11.275150300601203, 11.302404809619238, 11.329659318637276, 11.35691382765531, 11.384168336673348, 11.411422845691382, 11.43867735470942, 11.465931863727455, 11.493186372745491, 11.520440881763529, 11.547695390781563, 11.5749498997996, 11.602204408817636, 11.629458917835672, 11.656713426853708, 11.683967935871744, 11.71122244488978, 11.738476953907817, 11.765731462925851, 11.792985971943889, 11.820240480961923, 11.84749498997996, 11.874749498997996, 11.902004008016032, 11.92925851703407, 11.956513026052104, 11.983767535070141, 12.011022044088177, 12.038276553106213, 12.065531062124249, 12.092785571142285, 12.12004008016032, 12.147294589178358, 12.174549098196392, 12.20180360721443, 12.229058116232464, 12.256312625250501, 12.283567134268537, 12.310821643286573, 12.33807615230461, 12.365330661322645, 12.392585170340682, 12.419839679358718, 12.447094188376754, 12.47434869739479, 12.501603206412826, 12.528857715430862, 12.5561122244489, 12.583366733466933, 12.61062124248497, 12.637875751503005, 12.665130260521043, 12.692384769539078, 12.719639278557114, 12.746893787575152, 12.774148296593186, 12.801402805611223, 12.82865731462926, 12.855911823647295, 12.883166332665331, 12.910420841683367, 12.937675350701403, 12.96492985971944, 12.992184368737474, 13.019438877755512, 13.046693386773546, 13.073947895791584, 13.101202404809621, 13.128456913827655, 13.155711422845693, 13.182965931863727, 13.210220440881765, 13.2374749498998, 13.264729458917836, 13.291983967935872, 13.319238476953908, 13.346492985971944, 13.373747494989981, 13.401002004008015, 13.428256513026053, 13.455511022044087, 13.482765531062125, 13.510020040080162, 13.537274549098196, 13.564529058116234, 13.591783567134268, 13.619038076152306, 13.646292585170341, 13.673547094188377, 13.700801603206413, 13.728056112224449, 13.755310621242485, 13.782565130260522, 13.809819639278556, 13.837074148296594, 13.864328657314628, 13.891583166332666, 13.918837675350703, 13.946092184368737, 13.973346693386775, 14.000601202404809, 14.027855711422847, 14.055110220440882, 14.082364729458918, 14.109619238476954, 14.13687374749499, 14.164128256513026, 14.191382765531063, 14.218637274549097, 14.245891783567135, 14.273146292585169, 14.300400801603207, 14.327655310621244, 14.354909819639278, 14.382164328657316, 14.40941883767535, 14.436673346693388, 14.463927855711423, 14.49118236472946, 14.518436873747495, 14.545691382765531, 14.572945891783567, 14.600200400801604, 14.627454909819638, 14.654709418837676, 14.681963927855712, 14.709218436873748, 14.736472945891785, 14.76372745490982, 14.790981963927857, 14.818236472945891, 14.845490981963929, 14.872745490981965, 14.9])
+              .range(['#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ffc6c6ff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff8c8cff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff5252ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff']);
+    
+
+    color_map_29b326f88430f281b5a11ec03d90f42c.x = d3.scale.linear()
+              .domain([1.3, 14.9])
+              .range([0, 400]);
+
+    color_map_29b326f88430f281b5a11ec03d90f42c.legend = L.control({position: 'topright'});
+    color_map_29b326f88430f281b5a11ec03d90f42c.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_29b326f88430f281b5a11ec03d90f42c.legend.addTo(map_57b92c79bda2493705fd3758ed266d6a);
+
+    color_map_29b326f88430f281b5a11ec03d90f42c.xAxis = d3.svg.axis()
+        .scale(color_map_29b326f88430f281b5a11ec03d90f42c.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([1.3, 4.7, 8.1, 11.5, 14.9]);
+
+    color_map_29b326f88430f281b5a11ec03d90f42c.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_29b326f88430f281b5a11ec03d90f42c.g = color_map_29b326f88430f281b5a11ec03d90f42c.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_29b326f88430f281b5a11ec03d90f42c.g.selectAll("rect")
+        .data(color_map_29b326f88430f281b5a11ec03d90f42c.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_29b326f88430f281b5a11ec03d90f42c.x(color_map_29b326f88430f281b5a11ec03d90f42c.color.domain()[i - 1]) : color_map_29b326f88430f281b5a11ec03d90f42c.x.range()[0],
+            x1: i < color_map_29b326f88430f281b5a11ec03d90f42c.color.domain().length ? color_map_29b326f88430f281b5a11ec03d90f42c.x(color_map_29b326f88430f281b5a11ec03d90f42c.color.domain()[i]) : color_map_29b326f88430f281b5a11ec03d90f42c.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 10)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_29b326f88430f281b5a11ec03d90f42c.g.call(color_map_29b326f88430f281b5a11ec03d90f42c.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text('Diabeties');
+    
+            color_map_29b326f88430f281b5a11ec03d90f42c.svg[0][0].style.display = 'block';
+            map_57b92c79bda2493705fd3758ed266d6a.on('layeradd', function (eventLayer) {
+                if (eventLayer.layer == feature_group_9e027952c1471e17634dcabcc3b314ef) {
+                    color_map_29b326f88430f281b5a11ec03d90f42c.svg[0][0].style.display = 'block';
+                }});
+            map_57b92c79bda2493705fd3758ed266d6a.on('layerremove', function (eventLayer) {
+                if (eventLayer.layer == feature_group_9e027952c1471e17634dcabcc3b314ef) {
+                    color_map_29b326f88430f281b5a11ec03d90f42c.svg[0][0].style.display = 'none';
+                }});
+        
+    
+            var layer_control_a0bb73af1fd8c0c47dfd8ab3ab555111 = {
+                base_layers : {
+                    "OpenStreetMap" : feature_group_3d7db723c0bba05b05efdc4e6f0d4590,
+                    "Esri World Imagery" : feature_group_f2a1a66d73d9783b7f747f568b015df9,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_a0bb73af1fd8c0c47dfd8ab3ab555111.base_layers,
+                layer_control_a0bb73af1fd8c0c47dfd8ab3ab555111.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "bottomleft"}
+            ).addTo(map_57b92c79bda2493705fd3758ed266d6a);
+            feature_group_f2a1a66d73d9783b7f747f568b015df9.remove();
+        
+</script>

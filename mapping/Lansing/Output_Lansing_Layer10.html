@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8edba92726a223e30f2fcd615df719d6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8edba92726a223e30f2fcd615df719d6" ></div>
+        
+</body>
+<script>    
+    
+            var map_8edba92726a223e30f2fcd615df719d6 = L.map(
+                "map_8edba92726a223e30f2fcd615df719d6",
+                {
+                    center: [42.732536, -84.555534],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_8edba92726a223e30f2fcd615df719d6);
+
+            
+
+        
+    
+            var feature_group_de7cecc2f1eac688e903276bd79a72d4 = L.featureGroup(
+                {}
+            ).addTo(map_8edba92726a223e30f2fcd615df719d6);
+        
+    
+            var tile_layer_5118f5abb545598f4294449281fc9301 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(feature_group_de7cecc2f1eac688e903276bd79a72d4);
+        
+    
+            var feature_group_29f53ad97e11b4542394dc2c6e79d214 = L.featureGroup(
+                {}
+            ).addTo(map_8edba92726a223e30f2fcd615df719d6);
+        
+    
+            var tile_layer_ede5864b175874c71ae2eb73a2e0d768 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Esri", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(feature_group_29f53ad97e11b4542394dc2c6e79d214);
+        
+    
+            var feature_group_37ff607add5be7e0cfc073f63aa01088 = L.featureGroup(
+                {}
+            ).addTo(map_8edba92726a223e30f2fcd615df719d6);
+        
+    
+        function geo_json_1644ac738e910666fed8bdac64c18375_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_1644ac738e910666fed8bdac64c18375_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_1644ac738e910666fed8bdac64c18375 = L.geoJson(null, {
+                onEachFeature: geo_json_1644ac738e910666fed8bdac64c18375_onEachFeature,
+            
+                style: geo_json_1644ac738e910666fed8bdac64c18375_styler,
+        });
+
+        function geo_json_1644ac738e910666fed8bdac64c18375_add (data) {
+            geo_json_1644ac738e910666fed8bdac64c18375
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_1644ac738e910666fed8bdac64c18375_add({"features": [{"geometry": {"coordinates": [[[-84.56717626819072, 42.73995013765589], [-84.5672391502606, 42.73372828796239], [-84.5771385846916, 42.73382726182552], [-84.57712960153876, 42.738775753591334], [-84.57956403595873, 42.73878235131674], [-84.57944725497178, 42.74646162770224], [-84.57715655099727, 42.746474821516635], [-84.57714756784443, 42.74739838154608], [-84.57703977001034, 42.74751052718421], [-84.57860283860471, 42.74717408966114], [-84.57769554016775, 42.74765565653238], [-84.5772463825257, 42.74834831464965], [-84.5727548061051, 42.74831533110529], [-84.5727997218693, 42.74103213474691], [-84.56720321764924, 42.740966159855084], [-84.56717626819072, 42.73995013765589]]], "type": "Polygon"}, "id": 1, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065000400\"", "Geographic": "2020", "Geography1": "26065000400", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 2803, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 2061657.82812, "Shape__Len": 7454.09350957, "Sits_in_St": "MI", "id": 1, "place2010": "2646000", "plctract10": "2646000-26065000400", "tract2010": "26065000400"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_1644ac738e910666fed8bdac64c18375.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_6d23c32bb0a38bb8df3a047b2be364d8_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_6d23c32bb0a38bb8df3a047b2be364d8_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_6d23c32bb0a38bb8df3a047b2be364d8 = L.geoJson(null, {
+                onEachFeature: geo_json_6d23c32bb0a38bb8df3a047b2be364d8_onEachFeature,
+            
+                style: geo_json_6d23c32bb0a38bb8df3a047b2be364d8_styler,
+        });
+
+        function geo_json_6d23c32bb0a38bb8df3a047b2be364d8_add (data) {
+            geo_json_6d23c32bb0a38bb8df3a047b2be364d8
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_6d23c32bb0a38bb8df3a047b2be364d8_add({"features": [{"geometry": {"coordinates": [[[-84.5493806424123, 42.74091997738904], [-84.5487697880191, 42.739079248233736], [-84.54909318152139, 42.73728464964044], [-84.5553993548159, 42.737311041172504], [-84.55540833796874, 42.734678430528135], [-84.56463403593665, 42.73475760841821], [-84.56462505278381, 42.73371509143538], [-84.5672391502606, 42.73372828796239], [-84.56717626819072, 42.73995013765589], [-84.55536342220454, 42.739963332856085], [-84.55534545589886, 42.740926574886295], [-84.5493806424123, 42.74091997738904]]], "type": "Polygon"}, "id": 2, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065000600\"", "Geographic": "2020", "Geography1": "26065000600", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 1649, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 1482787.60547, "Shape__Len": 6209.97470891, "Sits_in_St": "MI", "id": 2, "place2010": "2646000", "plctract10": "2646000-26065000600", "tract2010": "26065000600"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_6d23c32bb0a38bb8df3a047b2be364d8.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c = L.geoJson(null, {
+                onEachFeature: geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c_onEachFeature,
+            
+                style: geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c_styler,
+        });
+
+        function geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c_add (data) {
+            geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c_add({"features": [{"geometry": {"coordinates": [[[-84.5493806424123, 42.74091997738904], [-84.55534545589886, 42.740926574886295], [-84.55536342220454, 42.739963332856085], [-84.55688157503471, 42.73995013765589], [-84.56150789874792, 42.73998312565113], [-84.56147196613657, 42.740834209860836], [-84.56162467973486, 42.740966159855084], [-84.56293622004966, 42.740966159855084], [-84.5629631695082, 42.74460127176014], [-84.56249604556045, 42.744673839882275], [-84.5624421466434, 42.746158169196086], [-84.55992686384786, 42.74617136307507], [-84.55989093123651, 42.74878369579031], [-84.55530054013465, 42.74873751914763], [-84.55530054013465, 42.75016897907452], [-84.55425849440508, 42.750155786046406], [-84.5525876279766, 42.750314102198395], [-84.55159049801124, 42.75007662781878], [-84.55096167731236, 42.74932461961417], [-84.55061133435156, 42.748335121234014], [-84.5506203175044, 42.74712791181938], [-84.55018014301517, 42.746032827205696], [-84.5497489516788, 42.74547868063221], [-84.54965912015038, 42.74488494666368], [-84.55000047995836, 42.744040515224775], [-84.55018912616802, 42.74280683299291], [-84.54987471581858, 42.74177764614573], [-84.5493806424123, 42.74091997738904]]], "type": "Polygon"}, "id": 3, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065000700\"", "Geographic": "2020", "Geography1": "26065000700", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 2501, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 1752313.08984, "Shape__Len": 5916.07644815, "Sits_in_St": "MI", "id": 3, "place2010": "2646000", "plctract10": "2646000-26065000700", "tract2010": "26065000700"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_4aa5e4cbfe83bfa16f0b4eda8791877c.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63 = L.geoJson(null, {
+                onEachFeature: geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63_onEachFeature,
+            
+                style: geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63_styler,
+        });
+
+        function geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63_add (data) {
+            geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63_add({"features": [{"geometry": {"coordinates": [[[-84.53035432469466, 42.75541958128944], [-84.53039025730602, 42.74859239233242], [-84.53157603348106, 42.748585795650925], [-84.53157603348106, 42.748163606575176], [-84.53249231507087, 42.746514402942964], [-84.53353436080045, 42.74704215287913], [-84.53348046188339, 42.740913379891076], [-84.53657066646076, 42.740946367373844], [-84.53778339209433, 42.7408474048729], [-84.53782830785853, 42.73916501818954], [-84.53935544384153, 42.7391914089213], [-84.5393913764529, 42.738327106616296], [-84.54202344023537, 42.738346899933646], [-84.54246361472458, 42.73944871796734], [-84.5424007326547, 42.73968623306211], [-84.54201445708253, 42.73983797834078], [-84.5420503896939, 42.740332797321706], [-84.54269717669847, 42.74035258999881], [-84.54277802507403, 42.74071545462593], [-84.54287683975528, 42.74818339675234], [-84.54230191797345, 42.74977978356478], [-84.54083766406032, 42.752919664103786], [-84.53876255575402, 42.75290647166118], [-84.53874458944834, 42.75373759006079], [-84.53338164720213, 42.753717801657], [-84.53335469774362, 42.75543936914984], [-84.53035432469466, 42.75541958128944]]], "type": "Polygon"}, "id": 4, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065000800\"", "Geographic": "2020", "Geography1": "26065000800", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3172, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 2467151.47656, "Shape__Len": 7808.14629446, "Sits_in_St": "MI", "id": 4, "place2010": "2646000", "plctract10": "2646000-26065000800", "tract2010": "26065000800"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_2bc43e7e45e5d0b97c581ed47e5ccd63.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_e8dcfd40e69deebc7561f50156b4be6d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_e8dcfd40e69deebc7561f50156b4be6d_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_e8dcfd40e69deebc7561f50156b4be6d = L.geoJson(null, {
+                onEachFeature: geo_json_e8dcfd40e69deebc7561f50156b4be6d_onEachFeature,
+            
+                style: geo_json_e8dcfd40e69deebc7561f50156b4be6d_styler,
+        });
+
+        function geo_json_e8dcfd40e69deebc7561f50156b4be6d_add (data) {
+            geo_json_e8dcfd40e69deebc7561f50156b4be6d
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_e8dcfd40e69deebc7561f50156b4be6d_add({"features": [{"geometry": {"coordinates": [[[-84.57944725497178, 42.72120352070354], [-84.58168406002925, 42.720998932914945], [-84.5817199926406, 42.720563356666354], [-84.58159422850083, 42.720451162288896], [-84.58104625617752, 42.7203917651834], [-84.5811091382474, 42.71997598385282], [-84.57991437891953, 42.719989183302964], [-84.57990539576669, 42.72047756098419], [-84.57915081092803, 42.720503959668264], [-84.57915081092803, 42.719322607561274], [-84.57721943306717, 42.71931600776565], [-84.57715655099727, 42.712082209767125], [-84.58218711658834, 42.712095410896396], [-84.58224101550539, 42.70525024866119], [-84.59195180372674, 42.70527665382305], [-84.5919248542682, 42.69759227781959], [-84.60309989640265, 42.69766490094456], [-84.60311786270833, 42.70838578310953], [-84.59992884344972, 42.71094690214552], [-84.59867120205195, 42.71243863927189], [-84.59734169543145, 42.7130788871303], [-84.59728779651441, 42.713342904942316], [-84.59654219482859, 42.71400954491929], [-84.59488929470581, 42.71492698822818], [-84.5942784403126, 42.715745415417025], [-84.59301181576198, 42.71822043196255], [-84.59246384343868, 42.71880782139486], [-84.59188892165683, 42.71915101264701], [-84.5895892345295, 42.72018057501446], [-84.58803514908797, 42.7203917651834], [-84.58622055221404, 42.720451162288896], [-84.58409154499068, 42.721025331377184], [-84.58220508289403, 42.72113092511383], [-84.5803455702559, 42.72140150824373], [-84.57944725497178, 42.72120352070354]]], "type": "Polygon"}, "id": 5, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065001703\"", "Geographic": "2020", "Geography1": "26065001703", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 4355, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 6106270.74609, "Shape__Len": 12525.1431348, "Sits_in_St": "MI", "id": 5, "place2010": "2646000", "plctract10": "2646000-26065001703", "tract2010": "26065001703"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_e8dcfd40e69deebc7561f50156b4be6d.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5 = L.geoJson(null, {
+                onEachFeature: geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5_onEachFeature,
+            
+                style: geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5_styler,
+        });
+
+        function geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5_add (data) {
+            geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5_add({"features": [{"geometry": {"coordinates": [[[-84.53811576874945, 42.718253431516274], [-84.53812475190229, 42.711950198319975], [-84.5569893728688, 42.71202940522196], [-84.55698038971596, 42.716062223043984], [-84.55585749561081, 42.716062223043984], [-84.55583952930513, 42.716583632075206], [-84.55603715866764, 42.71662983266416], [-84.55607309127899, 42.71778483620863], [-84.55431239332212, 42.71864942479212], [-84.55415967972382, 42.71893981825493], [-84.55403391558406, 42.71926320937542], [-84.55403391558406, 42.72115732351992], [-84.5538722188329, 42.721751284687386], [-84.55389916829142, 42.72394229226269], [-84.55362069055336, 42.724219462406374], [-84.5530637350772, 42.72442403957525], [-84.55205762195898, 42.72450982980015], [-84.55013522725098, 42.72433824923172], [-84.54878775432478, 42.72483319188916], [-84.5473953656344, 42.72505096540748], [-84.54751214662133, 42.72482659267971], [-84.54847334397535, 42.72410067535357], [-84.54904826575718, 42.722160454628316], [-84.54916504674412, 42.72163249290879], [-84.54900334999299, 42.72111772590659], [-84.54843741136398, 42.7206029546335], [-84.54776367490089, 42.72035876676688], [-84.54622755576504, 42.72027297080182], [-84.5454100888565, 42.72058315565309], [-84.54425126213998, 42.721540099145955], [-84.5438829528735, 42.72164569200653], [-84.54329904793882, 42.721559897821], [-84.54207733915241, 42.72122991907874], [-84.5397417194137, 42.71950080177766], [-84.53905899979777, 42.71874842271622], [-84.53811576874945, 42.718253431516274]]], "type": "Polygon"}, "id": 6, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065002000\"", "Geographic": "2020", "Geography1": "26065002000", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3410, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 2901812.60547, "Shape__Len": 8095.01010685, "Sits_in_St": "MI", "id": 6, "place2010": "2646000", "plctract10": "2646000-26065002000", "tract2010": "26065002000"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_f3d2fb286cb27a65de3aff0aa1a2d1f5.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_98881b63b61db65362c187e6a1171619_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_98881b63b61db65362c187e6a1171619_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_98881b63b61db65362c187e6a1171619 = L.geoJson(null, {
+                onEachFeature: geo_json_98881b63b61db65362c187e6a1171619_onEachFeature,
+            
+                style: geo_json_98881b63b61db65362c187e6a1171619_styler,
+        });
+
+        function geo_json_98881b63b61db65362c187e6a1171619_add (data) {
+            geo_json_98881b63b61db65362c187e6a1171619
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_98881b63b61db65362c187e6a1171619_add({"features": [{"geometry": {"coordinates": [[[-84.52247609965292, 42.7245758222001], [-84.5222515208319, 42.7214279065347], [-84.52227847029043, 42.71939520526676], [-84.53083941494808, 42.7194678028873], [-84.5371455882426, 42.71940840484045], [-84.53811576874945, 42.71929620837458], [-84.53809780244377, 42.72318336767493], [-84.54118800702113, 42.72316356951795], [-84.54117004071546, 42.72553930324513], [-84.53874458944834, 42.72561189367659], [-84.53362419232886, 42.72654236350278], [-84.53239350038962, 42.72655556155596], [-84.53074060026684, 42.72639058568942], [-84.52247609965292, 42.7245758222001]]], "type": "Polygon"}, "id": 7, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065002101\"", "Geographic": "2020", "Geography1": "26065002101", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 1916, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 1840286.65234, "Shape__Len": 5987.38568075, "Sits_in_St": "MI", "id": 7, "place2010": "2646000", "plctract10": "2646000-26065002101", "tract2010": "26065002101"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_98881b63b61db65362c187e6a1171619.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_d0f4115486cc12cdfb53e2a97b897b39_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_d0f4115486cc12cdfb53e2a97b897b39_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_d0f4115486cc12cdfb53e2a97b897b39 = L.geoJson(null, {
+                onEachFeature: geo_json_d0f4115486cc12cdfb53e2a97b897b39_onEachFeature,
+            
+                style: geo_json_d0f4115486cc12cdfb53e2a97b897b39_styler,
+        });
+
+        function geo_json_d0f4115486cc12cdfb53e2a97b897b39_add (data) {
+            geo_json_d0f4115486cc12cdfb53e2a97b897b39
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_d0f4115486cc12cdfb53e2a97b897b39_add({"features": [{"geometry": {"coordinates": [[[-84.53732525129942, 42.701566618516374], [-84.53816068451366, 42.70363291108571], [-84.53809780244377, 42.715686013806916], [-84.535313025063, 42.71566621325758], [-84.53527709245164, 42.71721723715325], [-84.53252824768222, 42.716511031080245], [-84.53145925249413, 42.71571901470845], [-84.53083941494808, 42.71492698822818], [-84.53032737523613, 42.71370592759996], [-84.53046212252875, 42.71193039657869], [-84.53075856657252, 42.71173237881831], [-84.53098314539353, 42.71111191907806], [-84.53104602746343, 42.710564061172384], [-84.53087534755944, 42.710412244270536], [-84.53092924647649, 42.7084913983547], [-84.53115382529752, 42.70781809808794], [-84.53168383131515, 42.706940156378046], [-84.53224976994414, 42.704755149796725], [-84.53288757379586, 42.70477495382711], [-84.53312113576975, 42.70157322019958], [-84.53732525129942, 42.701566618516374]]], "type": "Polygon"}, "id": 8, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065002200\"", "Geographic": "2020", "Geography1": "26065002200", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 1596, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 1631258.09375, "Shape__Len": 5955.49446878, "Sits_in_St": "MI", "id": 8, "place2010": "2646000", "plctract10": "2646000-26065002200", "tract2010": "26065002200"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_d0f4115486cc12cdfb53e2a97b897b39.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_db7136a2a7a52d12a0942139532f6fe6_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_db7136a2a7a52d12a0942139532f6fe6_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_db7136a2a7a52d12a0942139532f6fe6 = L.geoJson(null, {
+                onEachFeature: geo_json_db7136a2a7a52d12a0942139532f6fe6_onEachFeature,
+            
+                style: geo_json_db7136a2a7a52d12a0942139532f6fe6_styler,
+        });
+
+        function geo_json_db7136a2a7a52d12a0942139532f6fe6_add (data) {
+            geo_json_db7136a2a7a52d12a0942139532f6fe6
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_db7136a2a7a52d12a0942139532f6fe6_add({"features": [{"geometry": {"coordinates": [[[-84.53812475190229, 42.711950198319975], [-84.53811576874945, 42.696628362843285], [-84.5400471466103, 42.69669438489432], [-84.54120597332683, 42.69617941103467], [-84.54132275431375, 42.69689905280646], [-84.5425354799473, 42.697044300592935], [-84.54293972182516, 42.69693206369685], [-84.5429666712837, 42.69650952297452], [-84.5454550046207, 42.696529329635105], [-84.5454550046207, 42.6974338270703], [-84.54677552808836, 42.6974338270703], [-84.54672162917132, 42.70126954204548], [-84.54475431869909, 42.70126294032998], [-84.54470940293488, 42.705151229204176], [-84.55353085902495, 42.705157830506224], [-84.5554173211216, 42.70480796053039], [-84.55618987226593, 42.70479475785118], [-84.55734869898245, 42.70499279774444], [-84.55803141859838, 42.70525024866119], [-84.55251576275388, 42.71200300293253], [-84.53812475190229, 42.711950198319975]]], "type": "Polygon"}, "id": 9, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065002300\"", "Geographic": "2020", "Geography1": "26065002300", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3382, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 3072316.21875, "Shape__Len": 9304.17241326, "Sits_in_St": "MI", "id": 9, "place2010": "2646000", "plctract10": "2646000-26065002300", "tract2010": "26065002300"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_db7136a2a7a52d12a0942139532f6fe6.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_90cdf530c390283f939a612a969f017d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#e88469", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_90cdf530c390283f939a612a969f017d_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_90cdf530c390283f939a612a969f017d = L.geoJson(null, {
+                onEachFeature: geo_json_90cdf530c390283f939a612a969f017d_onEachFeature,
+            
+                style: geo_json_90cdf530c390283f939a612a969f017d_styler,
+        });
+
+        function geo_json_90cdf530c390283f939a612a969f017d_add (data) {
+            geo_json_90cdf530c390283f939a612a969f017d
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_90cdf530c390283f939a612a969f017d_add({"features": [{"geometry": {"coordinates": [[[-84.54677552808836, 42.6974338270703], [-84.56436454135142, 42.697539460948086], [-84.55803141859838, 42.70525024866119], [-84.55734869898245, 42.70499279774444], [-84.55618987226593, 42.70479475785118], [-84.5554173211216, 42.70480796053039], [-84.55353085902495, 42.705157830506224], [-84.54470940293488, 42.705151229204176], [-84.54475431869909, 42.70126294032998], [-84.54672162917132, 42.70126954204548], [-84.54677552808836, 42.6974338270703]]], "type": "Polygon"}, "id": 10, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065002600\"", "Geographic": "2020", "Geography1": "26065002600", "Geography_": "Census Tract", "People___5": "7", "PlaceName": "Lansing", "PlcTrPop10": 1889, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 2002980.33203, "Shape__Len": 6215.6179383, "Sits_in_St": "MI", "id": 10, "place2010": "2646000", "plctract10": "2646000-26065002600", "tract2010": "26065002600"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_90cdf530c390283f939a612a969f017d.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_a9f16efa16d90b559637e3f30906171f_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_a9f16efa16d90b559637e3f30906171f_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_a9f16efa16d90b559637e3f30906171f = L.geoJson(null, {
+                onEachFeature: geo_json_a9f16efa16d90b559637e3f30906171f_onEachFeature,
+            
+                style: geo_json_a9f16efa16d90b559637e3f30906171f_styler,
+        });
+
+        function geo_json_a9f16efa16d90b559637e3f30906171f_add (data) {
+            geo_json_a9f16efa16d90b559637e3f30906171f
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_a9f16efa16d90b559637e3f30906171f_add({"features": [{"geometry": {"coordinates": [[[-84.54677552808836, 42.6974338270703], [-84.5454550046207, 42.6974338270703], [-84.54546398777354, 42.69398082075308], [-84.54522144264683, 42.693195119462295], [-84.54527534156388, 42.685185681263704], [-84.54669467971279, 42.68519888811241], [-84.54676654493552, 42.68559509226803], [-84.54808706840318, 42.685588488886154], [-84.54806910209749, 42.683039531050895], [-84.5627924896042, 42.68305273835585], [-84.5627026580758, 42.68445930026105], [-84.56215468575249, 42.6844923177636], [-84.56208282052975, 42.68468381893238], [-84.56201095530703, 42.688718413214765], [-84.56240621403204, 42.689319287815465], [-84.56194807323715, 42.68990034783504], [-84.56185824170872, 42.69752625672319], [-84.54677552808836, 42.6974338270703]]], "type": "Polygon"}, "id": 11, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065002700\"", "Geographic": "2020", "Geography1": "26065002700", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3022, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 3963485.96094, "Shape__Len": 8357.73866802, "Sits_in_St": "MI", "id": 11, "place2010": "2646000", "plctract10": "2646000-26065002700", "tract2010": "26065002700"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_a9f16efa16d90b559637e3f30906171f.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_b86a8b5d4f7b1db729f23d536ca9284c_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_b86a8b5d4f7b1db729f23d536ca9284c_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b86a8b5d4f7b1db729f23d536ca9284c = L.geoJson(null, {
+                onEachFeature: geo_json_b86a8b5d4f7b1db729f23d536ca9284c_onEachFeature,
+            
+                style: geo_json_b86a8b5d4f7b1db729f23d536ca9284c_styler,
+        });
+
+        function geo_json_b86a8b5d4f7b1db729f23d536ca9284c_add (data) {
+            geo_json_b86a8b5d4f7b1db729f23d536ca9284c
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_b86a8b5d4f7b1db729f23d536ca9284c_add({"features": [{"geometry": {"coordinates": [[[-84.53732525129942, 42.701566618516374], [-84.53349842818906, 42.6896626421204], [-84.53307622000554, 42.68878444367495], [-84.52949194202189, 42.68299330546146], [-84.54806910209749, 42.683039531050895], [-84.54808706840318, 42.685588488886154], [-84.54676654493552, 42.68559509226803], [-84.54669467971279, 42.68519888811241], [-84.54527534156388, 42.685185681263704], [-84.54522144264683, 42.693195119462295], [-84.54546398777354, 42.69398082075308], [-84.5454550046207, 42.696529329635105], [-84.5429666712837, 42.69650952297452], [-84.54293972182516, 42.69693206369685], [-84.5425354799473, 42.697044300592935], [-84.54132275431375, 42.69689905280646], [-84.54120597332683, 42.69617941103467], [-84.5400471466103, 42.69669438489432], [-84.53811576874945, 42.696628362843285], [-84.53816068451366, 42.70363291108571], [-84.53732525129942, 42.701566618516374]]], "type": "Polygon"}, "id": 12, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065002800\"", "Geographic": "2020", "Geography1": "26065002800", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 2455, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 3050577.48438, "Shape__Len": 9897.86372057, "Sits_in_St": "MI", "id": 12, "place2010": "2646000", "plctract10": "2646000-26065002800", "tract2010": "26065002800"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_b86a8b5d4f7b1db729f23d536ca9284c.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#3f0a73", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212 = L.geoJson(null, {
+                onEachFeature: geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212_onEachFeature,
+            
+                style: geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212_styler,
+        });
+
+        function geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212_add (data) {
+            geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212_add({"features": [{"geometry": {"coordinates": [[[-84.58427120804751, 42.76974433849042], [-84.57996827783657, 42.76941461613128], [-84.57826147879675, 42.76897278541822], [-84.57609653896203, 42.767924249171465], [-84.56737389755322, 42.76315615295224], [-84.5673469480947, 42.760036577450975], [-84.57067969779878, 42.76111822395494], [-84.57933945713769, 42.763565049725116], [-84.5904156845909, 42.76068292946163], [-84.59118823573523, 42.76056421225086], [-84.59210451732504, 42.76064335708331], [-84.59474556426034, 42.76135565602594], [-84.59806034765874, 42.76278022934451], [-84.6028034523589, 42.76281320519084], [-84.60276751974753, 42.7698894157724], [-84.58427120804751, 42.76974433849042]]], "type": "Polygon"}, "id": 13, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065003301\"", "Geographic": "2020", "Geography1": "26065003301", "Geography_": "Census Tract", "People___5": "21", "PlaceName": "Lansing", "PlcTrPop10": 3074, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 3978610.63672, "Shape__Len": 9996.77855324, "Sits_in_St": "MI", "id": 13, "place2010": "2646000", "plctract10": "2646000-26065003301", "tract2010": "26065003301"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_b6bff0ccdb988f5ac69cae3fe5d3b212.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_c75510615f0e21fe9f60aa55cafd49e2_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_c75510615f0e21fe9f60aa55cafd49e2_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c75510615f0e21fe9f60aa55cafd49e2 = L.geoJson(null, {
+                onEachFeature: geo_json_c75510615f0e21fe9f60aa55cafd49e2_onEachFeature,
+            
+                style: geo_json_c75510615f0e21fe9f60aa55cafd49e2_styler,
+        });
+
+        function geo_json_c75510615f0e21fe9f60aa55cafd49e2_add (data) {
+            geo_json_c75510615f0e21fe9f60aa55cafd49e2
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_c75510615f0e21fe9f60aa55cafd49e2_add({"features": [{"geometry": {"coordinates": [[[-84.5673469480947, 42.760036577450975], [-84.5708144450914, 42.75871747079349], [-84.57272785664658, 42.760386136008236], [-84.57332074473409, 42.76064995248146], [-84.5740214306557, 42.760729097204376], [-84.57451550406198, 42.76059059387292], [-84.57469516711879, 42.76041911312881], [-84.5750455100796, 42.759205543529774], [-84.57562941501428, 42.75867789715989], [-84.5765277302984, 42.758295350732084], [-84.57861182175756, 42.7578138665264], [-84.57977064847407, 42.75735216582905], [-84.5815223632781, 42.756263857717045], [-84.58371425257135, 42.75426527849787], [-84.58447782056285, 42.75396845430488], [-84.58674157507883, 42.75381674361279], [-84.59266147280118, 42.75295924141474], [-84.59414369301997, 42.75289987543882], [-84.59597625619959, 42.753387993996846], [-84.59853645475933, 42.754397199905085], [-84.59960544994743, 42.75444996838934], [-84.60036901793893, 42.75430485494952], [-84.60256090723217, 42.75329564753748], [-84.6028483681231, 42.75327585899257], [-84.6028034523589, 42.76281320519084], [-84.59806034765874, 42.76278022934451], [-84.59474556426034, 42.76135565602594], [-84.59210451732504, 42.76064335708331], [-84.59118823573523, 42.76056421225086], [-84.5904156845909, 42.76068292946163], [-84.57933945713769, 42.763565049725116], [-84.57067969779878, 42.76111822395494], [-84.5673469480947, 42.760036577450975]]], "type": "Polygon"}, "id": 14, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065003302\"", "Geographic": "2020", "Geography1": "26065003302", "Geography_": "Census Tract", "People___5": "5", "PlaceName": "Lansing", "PlcTrPop10": 2242, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 3685893.30078, "Shape__Len": 10365.1881761, "Sits_in_St": "MI", "id": 14, "place2010": "2646000", "plctract10": "2646000-26065003302", "tract2010": "26065003302"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_c75510615f0e21fe9f60aa55cafd49e2.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_d16a26686a0cd1c99602be85cf4b29c0_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_d16a26686a0cd1c99602be85cf4b29c0_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_d16a26686a0cd1c99602be85cf4b29c0 = L.geoJson(null, {
+                onEachFeature: geo_json_d16a26686a0cd1c99602be85cf4b29c0_onEachFeature,
+            
+                style: geo_json_d16a26686a0cd1c99602be85cf4b29c0_styler,
+        });
+
+        function geo_json_d16a26686a0cd1c99602be85cf4b29c0_add (data) {
+            geo_json_d16a26686a0cd1c99602be85cf4b29c0
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_d16a26686a0cd1c99602be85cf4b29c0_add({"features": [{"geometry": {"coordinates": [[[-84.5919248542682, 42.69759227781959], [-84.59044263404941, 42.69759227781959], [-84.59043365089657, 42.69673399809125], [-84.58997551010167, 42.696199217800554], [-84.59057738134203, 42.695902115649055], [-84.59154756184888, 42.69586250192146], [-84.59165535968297, 42.6907455163419], [-84.59092772430284, 42.6907455163419], [-84.59104450528977, 42.68309896390106], [-84.60312684586117, 42.683158396694374], [-84.60309989640265, 42.69766490094456], [-84.5919248542682, 42.69759227781959]]], "type": "Polygon"}, "id": 15, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065003601\"", "Geographic": "2020", "Geography1": "26065003601", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3795, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 2932270.36328, "Shape__Len": 7384.80856873, "Sits_in_St": "MI", "id": 15, "place2010": "2646000", "plctract10": "2646000-26065003601", "tract2010": "26065003601"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_d16a26686a0cd1c99602be85cf4b29c0.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_e288d283e703ba01e4f75771d435b248_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_e288d283e703ba01e4f75771d435b248_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_e288d283e703ba01e4f75771d435b248 = L.geoJson(null, {
+                onEachFeature: geo_json_e288d283e703ba01e4f75771d435b248_onEachFeature,
+            
+                style: geo_json_e288d283e703ba01e4f75771d435b248_styler,
+        });
+
+        function geo_json_e288d283e703ba01e4f75771d435b248_add (data) {
+            geo_json_e288d283e703ba01e4f75771d435b248
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_e288d283e703ba01e4f75771d435b248_add({"features": [{"geometry": {"coordinates": [[[-84.58224101550539, 42.70525024866119], [-84.58241169540939, 42.68305934200727], [-84.59104450528977, 42.68309896390106], [-84.59092772430284, 42.6907455163419], [-84.59165535968297, 42.6907455163419], [-84.59154756184888, 42.69586250192146], [-84.59057738134203, 42.695902115649055], [-84.58997551010167, 42.696199217800554], [-84.59043365089657, 42.69673399809125], [-84.59044263404941, 42.69759227781959], [-84.5919248542682, 42.69759227781959], [-84.59195180372674, 42.70527665382305], [-84.58224101550539, 42.70525024866119]]], "type": "Polygon"}, "id": 16, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065003602\"", "Geographic": "2020", "Geography1": "26065003602", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3488, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 3407590.13281, "Shape__Len": 9165.51317047, "Sits_in_St": "MI", "id": 16, "place2010": "2646000", "plctract10": "2646000-26065003602", "tract2010": "26065003602"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_e288d283e703ba01e4f75771d435b248.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_a0dfc58f2e21d0f6afb0c68e23603c53_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_a0dfc58f2e21d0f6afb0c68e23603c53_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_a0dfc58f2e21d0f6afb0c68e23603c53 = L.geoJson(null, {
+                onEachFeature: geo_json_a0dfc58f2e21d0f6afb0c68e23603c53_onEachFeature,
+            
+                style: geo_json_a0dfc58f2e21d0f6afb0c68e23603c53_styler,
+        });
+
+        function geo_json_a0dfc58f2e21d0f6afb0c68e23603c53_add (data) {
+            geo_json_a0dfc58f2e21d0f6afb0c68e23603c53
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_a0dfc58f2e21d0f6afb0c68e23603c53_add({"features": [{"geometry": {"coordinates": [[[-84.56048381932402, 42.702319205880855], [-84.56436454135142, 42.697539460948086], [-84.56185824170872, 42.69752625672319], [-84.56194807323715, 42.68990034783504], [-84.56240621403204, 42.689319287815465], [-84.56201095530703, 42.688718413214765], [-84.56208282052975, 42.68468381893238], [-84.56215468575249, 42.6844923177636], [-84.5627026580758, 42.68445930026105], [-84.5627924896042, 42.68305273835585], [-84.58241169540939, 42.68305934200727], [-84.58224101550539, 42.705527502300576], [-84.58116303716444, 42.70552090103784], [-84.5808216773565, 42.70525024866119], [-84.57899809732973, 42.705144627901426], [-84.56746372908162, 42.70506541221368], [-84.5673918638589, 42.70253045683464], [-84.5611755220928, 42.702484245749915], [-84.56048381932402, 42.702319205880855]]], "type": "Polygon"}, "id": 17, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065003700\"", "Geographic": "2020", "Geography1": "26065003700", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 5262, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 7261536.78125, "Shape__Len": 11812.8725645, "Sits_in_St": "MI", "id": 17, "place2010": "2646000", "plctract10": "2646000-26065003700", "tract2010": "26065003700"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_a0dfc58f2e21d0f6afb0c68e23603c53.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_6dca95c8e757b312b1d204dc0a2468fd_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_6dca95c8e757b312b1d204dc0a2468fd_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_6dca95c8e757b312b1d204dc0a2468fd = L.geoJson(null, {
+                onEachFeature: geo_json_6dca95c8e757b312b1d204dc0a2468fd_onEachFeature,
+            
+                style: geo_json_6dca95c8e757b312b1d204dc0a2468fd_styler,
+        });
+
+        function geo_json_6dca95c8e757b312b1d204dc0a2468fd_add (data) {
+            geo_json_6dca95c8e757b312b1d204dc0a2468fd
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_6dca95c8e757b312b1d204dc0a2468fd_add({"features": [{"geometry": {"coordinates": [[[-84.5627924896042, 42.68305273835585], [-84.5629452032025, 42.66380671703311], [-84.5639692826264, 42.66117098802442], [-84.58203440299005, 42.66394543651726], [-84.58262729107757, 42.664242691512435], [-84.58283390359291, 42.66455315632328], [-84.582546442702, 42.664923069818364], [-84.58257339216053, 42.6701544678378], [-84.5728626039392, 42.677419568035425], [-84.56945798901238, 42.68108481896107], [-84.56859560633961, 42.68218765395075], [-84.56813746554472, 42.68307254930801], [-84.5627924896042, 42.68305273835585]]], "type": "Polygon"}, "id": 18, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065005201\"", "Geographic": "2020", "Geography1": "26065005201", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 5516, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 5019710.67188, "Shape__Len": 9518.87836588, "Sits_in_St": "MI", "id": 18, "place2010": "2646000", "plctract10": "2646000-26065005201", "tract2010": "26065005201"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_6dca95c8e757b312b1d204dc0a2468fd.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_4bf27fe30c447e31a86edfa647ebc062_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_4bf27fe30c447e31a86edfa647ebc062_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4bf27fe30c447e31a86edfa647ebc062 = L.geoJson(null, {
+                onEachFeature: geo_json_4bf27fe30c447e31a86edfa647ebc062_onEachFeature,
+            
+                style: geo_json_4bf27fe30c447e31a86edfa647ebc062_styler,
+        });
+
+        function geo_json_4bf27fe30c447e31a86edfa647ebc062_add (data) {
+            geo_json_4bf27fe30c447e31a86edfa647ebc062
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_4bf27fe30c447e31a86edfa647ebc062_add({"features": [{"geometry": {"coordinates": [[[-84.54806910209749, 42.683039531050895], [-84.5480062200276, 42.678060177031846], [-84.54770079283101, 42.67662044858663], [-84.5471977362719, 42.67529296298646], [-84.54356854252406, 42.66833806008721], [-84.53792712253978, 42.66047075050473], [-84.54337989631439, 42.65897776493338], [-84.5459580611798, 42.65870030348773], [-84.54782655697079, 42.65872672844065], [-84.55092574470099, 42.65912310138699], [-84.5639692826264, 42.66117098802442], [-84.5629452032025, 42.66380671703311], [-84.5627924896042, 42.68305273835585], [-84.54806910209749, 42.683039531050895]]], "type": "Polygon"}, "id": 19, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065005303\"", "Geographic": "2020", "Geography1": "26065005303", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 4639, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 7339486.88281, "Shape__Len": 11607.8538077, "Sits_in_St": "MI", "id": 19, "place2010": "2646000", "plctract10": "2646000-26065005303", "tract2010": "26065005303"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_4bf27fe30c447e31a86edfa647ebc062.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_563174851e21a0a91f35e94cfd742c64_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_563174851e21a0a91f35e94cfd742c64_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_563174851e21a0a91f35e94cfd742c64 = L.geoJson(null, {
+                onEachFeature: geo_json_563174851e21a0a91f35e94cfd742c64_onEachFeature,
+            
+                style: geo_json_563174851e21a0a91f35e94cfd742c64_styler,
+        });
+
+        function geo_json_563174851e21a0a91f35e94cfd742c64_add (data) {
+            geo_json_563174851e21a0a91f35e94cfd742c64
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_563174851e21a0a91f35e94cfd742c64_add({"features": [{"geometry": {"coordinates": [[[-84.53348046188339, 42.740913379891076], [-84.5224491501944, 42.740946367373844], [-84.52244016704157, 42.736057430994684], [-84.5200057326216, 42.736037636946534], [-84.5200506483858, 42.72998696010659], [-84.54113410810409, 42.72993417079734], [-84.54105325972853, 42.73474441211022], [-84.5379091562341, 42.73474441211022], [-84.53778339209433, 42.7408474048729], [-84.53657066646076, 42.740946367373844], [-84.53348046188339, 42.740913379891076]]], "type": "Polygon"}, "id": 20, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065006500\"", "Geographic": "2020", "Geography1": "26065006500", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3425, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 3364101.26953, "Shape__Len": 7989.85866337, "Sits_in_St": "MI", "id": 20, "place2010": "2646000", "plctract10": "2646000-26065006500", "tract2010": "26065006500"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_563174851e21a0a91f35e94cfd742c64.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_c6929a7cb9a28d1805bcd7ae527f5695_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_c6929a7cb9a28d1805bcd7ae527f5695_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c6929a7cb9a28d1805bcd7ae527f5695 = L.geoJson(null, {
+                onEachFeature: geo_json_c6929a7cb9a28d1805bcd7ae527f5695_onEachFeature,
+            
+                style: geo_json_c6929a7cb9a28d1805bcd7ae527f5695_styler,
+        });
+
+        function geo_json_c6929a7cb9a28d1805bcd7ae527f5695_add (data) {
+            geo_json_c6929a7cb9a28d1805bcd7ae527f5695
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_c6929a7cb9a28d1805bcd7ae527f5695_add({"features": [{"geometry": {"coordinates": [[[-84.54287683975528, 42.74818339675234], [-84.54277802507403, 42.74071545462593], [-84.54269717669847, 42.74035258999881], [-84.5420503896939, 42.740332797321706], [-84.54201445708253, 42.73983797834078], [-84.5424007326547, 42.73968623306211], [-84.54246361472458, 42.73944871796734], [-84.54202344023537, 42.738346899933646], [-84.5393913764529, 42.738327106616296], [-84.53935544384153, 42.7391914089213], [-84.53782830785853, 42.73916501818954], [-84.5379091562341, 42.73474441211022], [-84.54105325972853, 42.73474441211022], [-84.54117004071546, 42.728126109834974], [-84.54118800702113, 42.72316356951795], [-84.53809780244377, 42.72318336767493], [-84.53811576874945, 42.718253431516274], [-84.53905899979777, 42.71874842271622], [-84.5397417194137, 42.71950080177766], [-84.54207733915241, 42.72122991907874], [-84.54289480606096, 42.72146750395007], [-84.5438829528735, 42.72164569200653], [-84.54425126213998, 42.721540099145955], [-84.5454100888565, 42.72058315565309], [-84.54622755576504, 42.72027297080182], [-84.54674857862985, 42.720239972322126], [-84.54776367490089, 42.72035876676688], [-84.54843741136398, 42.7206029546335], [-84.54900334999299, 42.72111772590659], [-84.54916504674412, 42.72163249290879], [-84.54847334397535, 42.72410067535357], [-84.54751214662133, 42.72482659267971], [-84.5473953656344, 42.72505096540748], [-84.54664078079574, 42.72505756459308], [-84.54613772423664, 42.72524894066985], [-84.54567958344174, 42.72612002431849], [-84.54572449920595, 42.72698449675562], [-84.54578738127583, 42.72748601722776], [-84.5468294270054, 42.729247905688865], [-84.54905724891003, 42.73118790475391], [-84.549793867443, 42.732566982835586], [-84.54976691798447, 42.73377447578484], [-84.54890453531173, 42.73560216628881], [-84.54911114782708, 42.73745619439809], [-84.5487697880191, 42.739079248233736], [-84.55018912616802, 42.74280683299291], [-84.55000047995836, 42.744040515224775], [-84.54965912015038, 42.74488494666368], [-84.5497489516788, 42.74547868063221], [-84.55018014301517, 42.746032827205696], [-84.5506203175044, 42.74712791181938], [-84.55061133435156, 42.748335121234014], [-84.55096167731236, 42.74932461961417], [-84.55159049801124, 42.75007662781878], [-84.55203067250046, 42.75023494417295], [-84.55353085902495, 42.75028771620115], [-84.55508494446647, 42.750129399981766], [-84.55615393965456, 42.75034048818441], [-84.55782480608302, 42.75095395919273], [-84.55981008286093, 42.752682199707266], [-84.56151688190076, 42.753876108710436], [-84.56529878924691, 42.75473359822242], [-84.56688880729979, 42.75534042978462], [-84.56790390357085, 42.7558681045738], [-84.5692244270385, 42.7568772700943], [-84.5708144450914, 42.75871747079349], [-84.5673469480947, 42.760036577450975], [-84.56737389755322, 42.76315615295224], [-84.54459262194796, 42.75083522334242], [-84.54400871701327, 42.75037347065114], [-84.54334396370302, 42.7495357105576], [-84.54287683975528, 42.74818339675234]]], "type": "Polygon"}, "id": 21, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065006600\"", "Geographic": "2020", "Geography1": "26065006600", "Geography_": "Census Tract", "People___5": "3", "PlaceName": "Lansing", "PlcTrPop10": 3082, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 6115659.01953, "Shape__Len": 19588.0608448, "Sits_in_St": "MI", "id": 21, "place2010": "2646000", "plctract10": "2646000-26065006600", "tract2010": "26065006600"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_c6929a7cb9a28d1805bcd7ae527f5695.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_373c16747829c2bb86966766a251b9cb_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_373c16747829c2bb86966766a251b9cb_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_373c16747829c2bb86966766a251b9cb = L.geoJson(null, {
+                onEachFeature: geo_json_373c16747829c2bb86966766a251b9cb_onEachFeature,
+            
+                style: geo_json_373c16747829c2bb86966766a251b9cb_styler,
+        });
+
+        function geo_json_373c16747829c2bb86966766a251b9cb_add (data) {
+            geo_json_373c16747829c2bb86966766a251b9cb
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_373c16747829c2bb86966766a251b9cb_add({"features": [{"geometry": {"coordinates": [[[-84.54909318152139, 42.73728464964044], [-84.54890453531173, 42.73560216628881], [-84.54976691798447, 42.73377447578484], [-84.549793867443, 42.732566982835586], [-84.54905724891003, 42.73118790475391], [-84.5468294270054, 42.729247905688865], [-84.54578738127583, 42.72748601722776], [-84.54567958344174, 42.72612002431849], [-84.54584128019287, 42.725677884904215], [-84.54631738729346, 42.72511035805253], [-84.54816791677874, 42.72497177512564], [-84.55013522725098, 42.72433824923172], [-84.55111439091067, 42.724377844789636], [-84.55233609969706, 42.72449003206646], [-84.55234508284991, 42.72554590237877], [-84.55711513700858, 42.72559869542265], [-84.55710615385573, 42.72644997705192], [-84.56977239936181, 42.7265291654468], [-84.5697454499033, 42.725585497165895], [-84.57094020923117, 42.72557889803645], [-84.570949192384, 42.72443723807911], [-84.5721888674761, 42.724443837329986], [-84.57224276639315, 42.72333515333519], [-84.57536890358188, 42.72332195459686], [-84.57531500466483, 42.72268181241751], [-84.57771350647343, 42.722846798147074], [-84.57760570863934, 42.723328553966375], [-84.57962691802861, 42.7233483520707], [-84.57963590118146, 42.724470234326475], [-84.58168406002925, 42.72445043658016], [-84.5818906725446, 42.72480019583485], [-84.58151338012526, 42.72501796946901], [-84.5820433861429, 42.72557889803645], [-84.58201643668437, 42.72661495276051], [-84.58079472789797, 42.726601754719965], [-84.5807587952866, 42.72859462704113], [-84.57961793487577, 42.72931389304846], [-84.57962691802861, 42.7304290688076], [-84.57946522127747, 42.73091076574535], [-84.57960895172293, 42.731656398833245], [-84.57593484221087, 42.73164320186536], [-84.57522517313643, 42.731339670829094], [-84.57498262800972, 42.73227665315616], [-84.57494669539835, 42.73381406531956], [-84.56462505278381, 42.73371509143538], [-84.56463403593665, 42.73475760841821], [-84.55540833796874, 42.734678430528135], [-84.5553993548159, 42.737311041172504], [-84.54909318152139, 42.73728464964044]]], "type": "Polygon"}, "id": 22, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065006700\"", "Geographic": "2020", "Geography1": "26065006700", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3769, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 5126082.50781, "Shape__Len": 12754.9768186, "Sits_in_St": "MI", "id": 22, "place2010": "2646000", "plctract10": "2646000-26065006700", "tract2010": "26065006700"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_373c16747829c2bb86966766a251b9cb.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_66d493b100b94b20f4d85bbbdd402ae7_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_66d493b100b94b20f4d85bbbdd402ae7_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_66d493b100b94b20f4d85bbbdd402ae7 = L.geoJson(null, {
+                onEachFeature: geo_json_66d493b100b94b20f4d85bbbdd402ae7_onEachFeature,
+            
+                style: geo_json_66d493b100b94b20f4d85bbbdd402ae7_styler,
+        });
+
+        function geo_json_66d493b100b94b20f4d85bbbdd402ae7_add (data) {
+            geo_json_66d493b100b94b20f4d85bbbdd402ae7
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_66d493b100b94b20f4d85bbbdd402ae7_add({"features": [{"geometry": {"coordinates": [[[-84.5708144450914, 42.75871747079349], [-84.56973646675046, 42.75735216582905], [-84.56790390357085, 42.7558681045738], [-84.56688880729979, 42.75534042978462], [-84.56529878924691, 42.75473359822242], [-84.56151688190076, 42.753876108710436], [-84.55981008286093, 42.752682199707266], [-84.55782480608302, 42.75095395919273], [-84.55615393965456, 42.75034048818441], [-84.55530054013465, 42.75016897907452], [-84.55530054013465, 42.74873751914763], [-84.55989093123651, 42.74878369579031], [-84.55992686384786, 42.74617136307507], [-84.5624421466434, 42.746158169196086], [-84.56249604556045, 42.744673839882275], [-84.5629631695082, 42.74460127176014], [-84.56293622004966, 42.740966159855084], [-84.56162467973486, 42.740966159855084], [-84.56147196613657, 42.740834209860836], [-84.56150789874792, 42.73998312565113], [-84.56717626819072, 42.73995013765589], [-84.56720321764924, 42.740966159855084], [-84.5727997218693, 42.74103213474691], [-84.5727548061051, 42.74831533110529], [-84.57928555822065, 42.74834831464965], [-84.5791867435394, 42.75755663370512], [-84.57861182175756, 42.7578138665264], [-84.5765277302984, 42.758295350732084], [-84.57562941501428, 42.75867789715989], [-84.5750455100796, 42.759205543529774], [-84.57469516711879, 42.76041911312881], [-84.57451550406198, 42.76059059387292], [-84.5740214306557, 42.760729097204376], [-84.57332074473409, 42.76064995248146], [-84.57272785664658, 42.760386136008236], [-84.5708144450914, 42.75871747079349]]], "type": "Polygon"}, "id": 23, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065006800\"", "Geographic": "2020", "Geography1": "26065006800", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 3985, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 4412564.0, "Shape__Len": 10722.3543495, "Sits_in_St": "MI", "id": 23, "place2010": "2646000", "plctract10": "2646000-26065006800", "tract2010": "26065006800"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_66d493b100b94b20f4d85bbbdd402ae7.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+        function geo_json_a0989dbb29326d83c6161ff19046e1c0_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "white", "fillColor": "#ffdc96", "fillOpacity": "0.7", "weight": 1};
+            }
+        }
+
+        function geo_json_a0989dbb29326d83c6161ff19046e1c0_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_a0989dbb29326d83c6161ff19046e1c0 = L.geoJson(null, {
+                onEachFeature: geo_json_a0989dbb29326d83c6161ff19046e1c0_onEachFeature,
+            
+                style: geo_json_a0989dbb29326d83c6161ff19046e1c0_styler,
+        });
+
+        function geo_json_a0989dbb29326d83c6161ff19046e1c0_add (data) {
+            geo_json_a0989dbb29326d83c6161ff19046e1c0
+                .addData(data)
+                .addTo(feature_group_37ff607add5be7e0cfc073f63aa01088);
+        }
+            geo_json_a0989dbb29326d83c6161ff19046e1c0_add({"features": [{"geometry": {"coordinates": [[[-84.55607309127899, 42.71778483620863], [-84.55603715866764, 42.71662983266416], [-84.55583952930513, 42.716583632075206], [-84.55585749561081, 42.716062223043984], [-84.55698038971596, 42.716062223043984], [-84.5569893728688, 42.71202940522196], [-84.55251576275388, 42.71200300293253], [-84.56048381932402, 42.702319205880855], [-84.5611755220928, 42.702484245749915], [-84.5673918638589, 42.70253045683464], [-84.56746372908162, 42.70506541221368], [-84.57899809732973, 42.705144627901426], [-84.5808216773565, 42.70525024866119], [-84.58116303716444, 42.70552090103784], [-84.58224101550539, 42.705527502300576], [-84.58218711658834, 42.712095410896396], [-84.57715655099727, 42.712082209767125], [-84.57721943306717, 42.71931600776565], [-84.57915081092803, 42.719322607561274], [-84.57915081092803, 42.720503959668264], [-84.57990539576669, 42.72047756098419], [-84.57991437891953, 42.719989183302964], [-84.5811091382474, 42.71997598385282], [-84.58104625617752, 42.7203917651834], [-84.58159422850083, 42.720451162288896], [-84.5817199926406, 42.720563356666354], [-84.58168406002925, 42.720998932914945], [-84.57944725497178, 42.72120352070354], [-84.57931250767916, 42.72083394227146], [-84.57849504077062, 42.721348711628124], [-84.5764199324643, 42.72113092511383], [-84.57460533559039, 42.721262917031936], [-84.57120072066357, 42.72048416065626], [-84.5710749565238, 42.72036536645158], [-84.57108393967664, 42.71990338682685], [-84.5702485064624, 42.720239972322126], [-84.56864950525666, 42.71959979834342], [-84.56718525134356, 42.71959979834342], [-84.56610727300261, 42.71892001874383], [-84.56348419237298, 42.71826003142492], [-84.56171451126326, 42.71802243427165], [-84.56116653893996, 42.71827983114662], [-84.5576451430262, 42.71763963694447], [-84.55651326576822, 42.71763963694447], [-84.55607309127899, 42.71778483620863]]], "type": "Polygon"}, "id": 24, "properties": {"Data_Sourc": "Census", "Data_Time_": "2017-2021", "Formatted_": "=\"26065007000\"", "Geographic": "2020", "Geography1": "26065007000", "Geography_": "Census Tract", "People___5": "0", "PlaceName": "Lansing", "PlcTrPop10": 5734, "ST": "26", "Selected_L": "Lansing (City, 2020)", "Shape__Are": 6129322.71875, "Shape__Len": 12770.4452374, "Sits_in_St": "MI", "id": 24, "place2010": "2646000", "plctract10": "2646000-26065007000", "tract2010": "26065007000"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_a0989dbb29326d83c6161ff19046e1c0.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["People___5"];
+    let aliases = ["Mean Value"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+    
+    var color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4 = {};
+
+    
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.color = d3.scale.threshold()
+              .domain([0.0, 0.04208416833667335, 0.0841683366733467, 0.12625250501002003, 0.1683366733466934, 0.21042084168336672, 0.25250501002004005, 0.29458917835671344, 0.3366733466933868, 0.3787575150300601, 0.42084168336673344, 0.46292585170340683, 0.5050100200400801, 0.5470941883767535, 0.5891783567134269, 0.6312625250501002, 0.6733466933867736, 0.7154308617234469, 0.7575150300601202, 0.7995991983967936, 0.8416833667334669, 0.8837675350701403, 0.9258517034068137, 0.9679358717434869, 1.0100200400801602, 1.0521042084168337, 1.094188376753507, 1.1362725450901803, 1.1783567134268538, 1.220440881763527, 1.2625250501002003, 1.3046092184368738, 1.346693386773547, 1.3887775551102204, 1.4308617234468939, 1.4729458917835672, 1.5150300601202404, 1.5571142284569137, 1.5991983967935872, 1.6412825651302605, 1.6833667334669338, 1.7254509018036073, 1.7675350701402806, 1.8096192384769538, 1.8517034068136273, 1.8937875751503006, 1.9358717434869739, 1.9779559118236474, 2.0200400801603204, 2.062124248496994, 2.1042084168336674, 2.1462925851703405, 2.188376753507014, 2.2304609218436875, 2.2725450901803605, 2.314629258517034, 2.3567134268537075, 2.3987975951903806, 2.440881763527054, 2.4829659318637276, 2.5250501002004007, 2.567134268537074, 2.6092184368737477, 2.6513026052104207, 2.693386773547094, 2.7354709418837677, 2.7775551102204408, 2.8196392785571143, 2.8617234468937878, 2.903807615230461, 2.9458917835671343, 2.987975951903808, 3.030060120240481, 3.0721442885771544, 3.1142284569138274, 3.156312625250501, 3.1983967935871744, 3.2404809619238475, 3.282565130260521, 3.3246492985971945, 3.3667334669338675, 3.408817635270541, 3.4509018036072145, 3.4929859719438876, 3.535070140280561, 3.5771543086172346, 3.6192384769539077, 3.661322645290581, 3.7034068136272547, 3.7454909819639277, 3.787575150300601, 3.8296593186372747, 3.8717434869739478, 3.9138276553106213, 3.9559118236472948, 3.997995991983968, 4.040080160320641, 4.082164328657314, 4.124248496993988, 4.166332665330661, 4.208416833667335, 4.250501002004008, 4.292585170340681, 4.3346693386773545, 4.376753507014028, 4.4188376753507015, 4.460921843687375, 4.5030060120240485, 4.545090180360721, 4.587174348697395, 4.629258517034068, 4.671342685370742, 4.713426853707415, 4.755511022044089, 4.797595190380761, 4.839679358717435, 4.881763527054108, 4.923847695390782, 4.965931863727455, 5.008016032064128, 5.050100200400801, 5.092184368737475, 5.134268537074148, 5.176352705410822, 5.218436873747495, 5.260521042084168, 5.302605210420841, 5.344689378757515, 5.386773547094188, 5.428857715430862, 5.470941883767535, 5.513026052104208, 5.5551102204408815, 5.597194388777555, 5.6392785571142285, 5.681362725450902, 5.7234468937875755, 5.765531062124248, 5.807615230460922, 5.849699398797595, 5.891783567134269, 5.933867735470942, 5.975951903807616, 6.018036072144288, 6.060120240480962, 6.102204408817635, 6.144288577154309, 6.186372745490982, 6.228456913827655, 6.270541082164328, 6.312625250501002, 6.354709418837675, 6.396793587174349, 6.438877755511022, 6.480961923847695, 6.5230460921843685, 6.565130260521042, 6.6072144288577155, 6.649298597194389, 6.6913827655310625, 6.733466933867735, 6.775551102204409, 6.817635270541082, 6.859719438877756, 6.901803607214429, 6.943887775551103, 6.985971943887775, 7.028056112224449, 7.070140280561122, 7.112224448897796, 7.154308617234469, 7.196392785571143, 7.238476953907815, 7.280561122244489, 7.322645290581162, 7.364729458917836, 7.406813627254509, 7.448897795591182, 7.490981963927855, 7.533066132264529, 7.575150300601202, 7.617234468937876, 7.659318637274549, 7.701402805611222, 7.7434869739478955, 7.785571142284569, 7.8276553106212425, 7.869739478957916, 7.9118236472945895, 7.953907815631262, 7.995991983967936, 8.03807615230461, 8.080160320641282, 8.122244488977955, 8.164328657314629, 8.206412825651302, 8.248496993987976, 8.29058116232465, 8.332665330661323, 8.374749498997996, 8.41683366733467, 8.458917835671343, 8.501002004008017, 8.54308617234469, 8.585170340681362, 8.627254509018035, 8.669338677354709, 8.711422845691382, 8.753507014028056, 8.79559118236473, 8.837675350701403, 8.879759519038076, 8.92184368737475, 8.963927855711423, 9.006012024048097, 9.048096192384769, 9.090180360721442, 9.132264529058116, 9.17434869739479, 9.216432865731463, 9.258517034068136, 9.30060120240481, 9.342685370741483, 9.384769539078157, 9.42685370741483, 9.468937875751504, 9.511022044088177, 9.553106212424849, 9.595190380761522, 9.637274549098196, 9.67935871743487, 9.721442885771543, 9.763527054108216, 9.80561122244489, 9.847695390781563, 9.889779559118237, 9.93186372745491, 9.973947895791584, 10.016032064128256, 10.05811623246493, 10.100200400801603, 10.142284569138276, 10.18436873747495, 10.226452905811623, 10.268537074148297, 10.31062124248497, 10.352705410821644, 10.394789579158317, 10.43687374749499, 10.478957915831664, 10.521042084168336, 10.56312625250501, 10.605210420841683, 10.647294589178356, 10.68937875751503, 10.731462925851703, 10.773547094188377, 10.81563126252505, 10.857715430861724, 10.899799599198397, 10.94188376753507, 10.983967935871744, 11.026052104208416, 11.06813627254509, 11.110220440881763, 11.152304609218437, 11.19438877755511, 11.236472945891784, 11.278557114228457, 11.32064128256513, 11.362725450901804, 11.404809619238478, 11.446893787575151, 11.488977955911823, 11.531062124248496, 11.57314629258517, 11.615230460921843, 11.657314629258517, 11.69939879759519, 11.741482965931864, 11.783567134268537, 11.82565130260521, 11.867735470941884, 11.909819639278558, 11.951903807615231, 11.993987975951903, 12.036072144288577, 12.07815631262525, 12.120240480961924, 12.162324649298597, 12.20440881763527, 12.246492985971944, 12.288577154308618, 12.330661322645291, 12.372745490981965, 12.414829659318638, 12.45691382765531, 12.498997995991983, 12.541082164328657, 12.58316633266533, 12.625250501002004, 12.667334669338677, 12.70941883767535, 12.751503006012024, 12.793587174348698, 12.835671342685371, 12.877755511022045, 12.919839679358718, 12.96192384769539, 13.004008016032063, 13.046092184368737, 13.08817635270541, 13.130260521042084, 13.172344689378757, 13.214428857715431, 13.256513026052104, 13.298597194388778, 13.340681362725451, 13.382765531062125, 13.424849699398798, 13.46693386773547, 13.509018036072144, 13.551102204408817, 13.59318637274549, 13.635270541082164, 13.677354709418838, 13.719438877755511, 13.761523046092185, 13.803607214428858, 13.845691382765532, 13.887775551102205, 13.929859719438877, 13.97194388777555, 14.014028056112224, 14.056112224448897, 14.098196392785571, 14.140280561122244, 14.182364729458918, 14.224448897795591, 14.266533066132265, 14.308617234468938, 14.350701402805612, 14.392785571142285, 14.434869739478957, 14.47695390781563, 14.519038076152304, 14.561122244488978, 14.603206412825651, 14.645290581162325, 14.687374749498998, 14.729458917835672, 14.771543086172345, 14.813627254509019, 14.855711422845692, 14.897795591182364, 14.939879759519037, 14.98196392785571, 15.024048096192384, 15.066132264529058, 15.108216432865731, 15.150300601202405, 15.192384769539078, 15.234468937875752, 15.276553106212425, 15.318637274549099, 15.360721442885772, 15.402805611222444, 15.444889779559118, 15.486973947895791, 15.529058116232465, 15.571142284569138, 15.613226452905812, 15.655310621242485, 15.697394789579159, 15.739478957915832, 15.781563126252506, 15.823647294589179, 15.865731462925853, 15.907815631262524, 15.949899799599198, 15.991983967935871, 16.034068136272545, 16.07615230460922, 16.118236472945892, 16.160320641282564, 16.20240480961924, 16.24448897795591, 16.286573146292586, 16.328657314629258, 16.370741482965933, 16.412825651302605, 16.45490981963928, 16.49699398797595, 16.539078156312627, 16.5811623246493, 16.62324649298597, 16.665330661322646, 16.707414829659317, 16.749498997995993, 16.791583166332664, 16.83366733466934, 16.87575150300601, 16.917835671342687, 16.95991983967936, 17.002004008016034, 17.044088176352705, 17.08617234468938, 17.128256513026052, 17.170340681362724, 17.2124248496994, 17.25450901803607, 17.296593186372746, 17.338677354709418, 17.380761523046093, 17.422845691382765, 17.46492985971944, 17.507014028056112, 17.549098196392787, 17.59118236472946, 17.63326653306613, 17.675350701402806, 17.717434869739478, 17.759519038076153, 17.801603206412825, 17.8436873747495, 17.88577154308617, 17.927855711422847, 17.96993987975952, 18.012024048096194, 18.054108216432866, 18.096192384769537, 18.138276553106213, 18.180360721442884, 18.22244488977956, 18.26452905811623, 18.306613226452907, 18.34869739478958, 18.390781563126254, 18.432865731462925, 18.4749498997996, 18.517034068136272, 18.559118236472944, 18.60120240480962, 18.64328657314629, 18.685370741482966, 18.727454909819638, 18.769539078156313, 18.811623246492985, 18.85370741482966, 18.895791583166332, 18.937875751503007, 18.97995991983968, 19.022044088176354, 19.064128256513026, 19.106212424849698, 19.148296593186373, 19.190380761523045, 19.23246492985972, 19.274549098196392, 19.316633266533067, 19.35871743486974, 19.400801603206414, 19.442885771543086, 19.48496993987976, 19.527054108216433, 19.569138276553105, 19.61122244488978, 19.65330661322645, 19.695390781563127, 19.7374749498998, 19.779559118236474, 19.821643286573146, 19.86372745490982, 19.905811623246493, 19.947895791583168, 19.98997995991984, 20.03206412825651, 20.074148296593187, 20.11623246492986, 20.158316633266534, 20.200400801603205, 20.24248496993988, 20.284569138276552, 20.326653306613228, 20.3687374749499, 20.410821643286575, 20.452905811623246, 20.49498997995992, 20.537074148296593, 20.579158316633265, 20.62124248496994, 20.663326653306612, 20.705410821643287, 20.74749498997996, 20.789579158316634, 20.831663326653306, 20.87374749498998, 20.915831663326653, 20.95791583166333, 21.0])
+              .range(['#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#ffdc96ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#e88469ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#b12f69ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff', '#3f0a73ff']);
+    
+
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.x = d3.scale.linear()
+              .domain([0.0, 21.0])
+              .range([0, 400]);
+
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.legend = L.control({position: 'topright'});
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.legend.addTo(map_8edba92726a223e30f2fcd615df719d6);
+
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.xAxis = d3.svg.axis()
+        .scale(color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([0, 5.25, 10.5, 15.75, 21]);
+
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.g = color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.g.selectAll("rect")
+        .data(color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.x(color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.color.domain()[i - 1]) : color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.x.range()[0],
+            x1: i < color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.color.domain().length ? color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.x(color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.color.domain()[i]) : color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 10)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.g.call(color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text('Number of people with disability - Aged 5 and above');
+    
+            color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.svg[0][0].style.display = 'block';
+            map_8edba92726a223e30f2fcd615df719d6.on('layeradd', function (eventLayer) {
+                if (eventLayer.layer == feature_group_37ff607add5be7e0cfc073f63aa01088) {
+                    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.svg[0][0].style.display = 'block';
+                }});
+            map_8edba92726a223e30f2fcd615df719d6.on('layerremove', function (eventLayer) {
+                if (eventLayer.layer == feature_group_37ff607add5be7e0cfc073f63aa01088) {
+                    color_map_d6b0eda7b659b951d84e8a5fb6cf1ee4.svg[0][0].style.display = 'none';
+                }});
+        
+    
+            var layer_control_7c02297f05c5a6e70876b947483efe36 = {
+                base_layers : {
+                    "OpenStreetMap" : feature_group_de7cecc2f1eac688e903276bd79a72d4,
+                    "Esri World Imagery" : feature_group_29f53ad97e11b4542394dc2c6e79d214,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_7c02297f05c5a6e70876b947483efe36.base_layers,
+                layer_control_7c02297f05c5a6e70876b947483efe36.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "bottomleft"}
+            ).addTo(map_8edba92726a223e30f2fcd615df719d6);
+            feature_group_29f53ad97e11b4542394dc2c6e79d214.remove();
+        
+</script>
